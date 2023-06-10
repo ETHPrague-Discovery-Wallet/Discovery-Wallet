@@ -1122,33 +1122,33 @@
     "absolutePath": "project:/contracts/interfaces/IEntryPoint.sol",
     "exportedSymbols": {
       "IAggregator": [
-        3281
+        4113
       ],
       "IEntryPoint": [
-        3485
+        4317
       ],
       "INonceManager": [
-        3504
+        4336
       ],
       "IStakeManager": [
-        3609
+        4441
       ],
       "UserOperation": [
-        3636
+        4468
       ],
       "UserOperationLib": [
-        3806
+        4638
       ],
       "calldataKeccak": [
-        3230
+        4062
       ]
     },
-    "id": 3486,
+    "id": 4318,
     "license": "GPL-3.0",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 3283,
+        "id": 4115,
         "literals": [
           "solidity",
           "^",
@@ -1156,53 +1156,53 @@
           ".12"
         ],
         "nodeType": "PragmaDirective",
-        "src": "168:24:21"
+        "src": "168:24:26"
       },
       {
         "absolutePath": "project:/contracts/interfaces/UserOperation.sol",
         "file": "./UserOperation.sol",
-        "id": 3284,
+        "id": 4116,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 3486,
-        "sourceUnit": 3807,
-        "src": "322:29:21",
+        "scope": 4318,
+        "sourceUnit": 4639,
+        "src": "322:29:26",
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
         "absolutePath": "project:/contracts/interfaces/IStakeManager.sol",
         "file": "./IStakeManager.sol",
-        "id": 3285,
+        "id": 4117,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 3486,
-        "sourceUnit": 3610,
-        "src": "353:29:21",
+        "scope": 4318,
+        "sourceUnit": 4442,
+        "src": "353:29:26",
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
         "absolutePath": "project:/contracts/interfaces/IAggregator.sol",
         "file": "./IAggregator.sol",
-        "id": 3286,
+        "id": 4118,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 3486,
-        "sourceUnit": 3282,
-        "src": "384:27:21",
+        "scope": 4318,
+        "sourceUnit": 4114,
+        "src": "384:27:26",
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
         "absolutePath": "project:/contracts/interfaces/INonceManager.sol",
         "file": "./INonceManager.sol",
-        "id": 3287,
+        "id": 4119,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 3486,
-        "sourceUnit": 3505,
-        "src": "413:29:21",
+        "scope": 4318,
+        "sourceUnit": 4337,
+        "src": "413:29:26",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -1211,63 +1211,63 @@
         "baseContracts": [
           {
             "baseName": {
-              "id": 3288,
+              "id": 4120,
               "name": "IStakeManager",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 3609,
-              "src": "471:13:21"
+              "referencedDeclaration": 4441,
+              "src": "471:13:26"
             },
-            "id": 3289,
+            "id": 4121,
             "nodeType": "InheritanceSpecifier",
-            "src": "471:13:21"
+            "src": "471:13:26"
           },
           {
             "baseName": {
-              "id": 3290,
+              "id": 4122,
               "name": "INonceManager",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 3504,
-              "src": "486:13:21"
+              "referencedDeclaration": 4336,
+              "src": "486:13:26"
             },
-            "id": 3291,
+            "id": 4123,
             "nodeType": "InheritanceSpecifier",
-            "src": "486:13:21"
+            "src": "486:13:26"
           }
         ],
         "canonicalName": "IEntryPoint",
         "contractDependencies": [],
         "contractKind": "interface",
         "fullyImplemented": false,
-        "id": 3485,
+        "id": 4317,
         "linearizedBaseContracts": [
-          3485,
-          3504,
-          3609
+          4317,
+          4336,
+          4441
         ],
         "name": "IEntryPoint",
-        "nameLocation": "456:11:21",
+        "nameLocation": "456:11:26",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "anonymous": false,
-            "id": 3307,
+            "id": 4139,
             "name": "UserOperationEvent",
-            "nameLocation": "1219:18:21",
+            "nameLocation": "1219:18:26",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 3306,
+              "id": 4138,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3293,
+                  "id": 4125,
                   "indexed": true,
                   "mutability": "mutable",
                   "name": "userOpHash",
-                  "nameLocation": "1254:10:21",
+                  "nameLocation": "1254:10:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3307,
-                  "src": "1238:26:21",
+                  "scope": 4139,
+                  "src": "1238:26:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1275,10 +1275,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 3292,
+                    "id": 4124,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1238:7:21",
+                    "src": "1238:7:26",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1288,14 +1288,14 @@
                 },
                 {
                   "constant": false,
-                  "id": 3295,
+                  "id": 4127,
                   "indexed": true,
                   "mutability": "mutable",
                   "name": "sender",
-                  "nameLocation": "1282:6:21",
+                  "nameLocation": "1282:6:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3307,
-                  "src": "1266:22:21",
+                  "scope": 4139,
+                  "src": "1266:22:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1303,10 +1303,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 3294,
+                    "id": 4126,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1266:7:21",
+                    "src": "1266:7:26",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1317,14 +1317,14 @@
                 },
                 {
                   "constant": false,
-                  "id": 3297,
+                  "id": 4129,
                   "indexed": true,
                   "mutability": "mutable",
                   "name": "paymaster",
-                  "nameLocation": "1306:9:21",
+                  "nameLocation": "1306:9:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3307,
-                  "src": "1290:25:21",
+                  "scope": 4139,
+                  "src": "1290:25:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1332,10 +1332,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 3296,
+                    "id": 4128,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1290:7:21",
+                    "src": "1290:7:26",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1346,14 +1346,14 @@
                 },
                 {
                   "constant": false,
-                  "id": 3299,
+                  "id": 4131,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "nonce",
-                  "nameLocation": "1325:5:21",
+                  "nameLocation": "1325:5:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3307,
-                  "src": "1317:13:21",
+                  "scope": 4139,
+                  "src": "1317:13:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1361,10 +1361,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 3298,
+                    "id": 4130,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1317:7:21",
+                    "src": "1317:7:26",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1374,14 +1374,14 @@
                 },
                 {
                   "constant": false,
-                  "id": 3301,
+                  "id": 4133,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "success",
-                  "nameLocation": "1337:7:21",
+                  "nameLocation": "1337:7:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3307,
-                  "src": "1332:12:21",
+                  "scope": 4139,
+                  "src": "1332:12:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1389,10 +1389,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 3300,
+                    "id": 4132,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1332:4:21",
+                    "src": "1332:4:26",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -1402,14 +1402,14 @@
                 },
                 {
                   "constant": false,
-                  "id": 3303,
+                  "id": 4135,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "actualGasCost",
-                  "nameLocation": "1354:13:21",
+                  "nameLocation": "1354:13:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3307,
-                  "src": "1346:21:21",
+                  "scope": 4139,
+                  "src": "1346:21:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1417,10 +1417,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 3302,
+                    "id": 4134,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1346:7:21",
+                    "src": "1346:7:26",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1430,14 +1430,14 @@
                 },
                 {
                   "constant": false,
-                  "id": 3305,
+                  "id": 4137,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "actualGasUsed",
-                  "nameLocation": "1377:13:21",
+                  "nameLocation": "1377:13:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3307,
-                  "src": "1369:21:21",
+                  "scope": 4139,
+                  "src": "1369:21:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1445,10 +1445,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 3304,
+                    "id": 4136,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1369:7:21",
+                    "src": "1369:7:26",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1457,36 +1457,36 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1237:154:21"
+              "src": "1237:154:26"
             },
-            "src": "1213:179:21"
+            "src": "1213:179:26"
           },
           {
             "anonymous": false,
             "documentation": {
-              "id": 3308,
+              "id": 4140,
               "nodeType": "StructuredDocumentation",
-              "src": "1400:339:21",
+              "src": "1400:339:26",
               "text": " account \"sender\" was deployed.\n @param userOpHash the userOp that deployed this account. UserOperationEvent will follow.\n @param sender the account that is deployed\n @param factory the factory used to deploy this account (in the initCode)\n @param paymaster the paymaster used by this UserOp"
             },
-            "id": 3318,
+            "id": 4150,
             "name": "AccountDeployed",
-            "nameLocation": "1751:15:21",
+            "nameLocation": "1751:15:26",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 3317,
+              "id": 4149,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3310,
+                  "id": 4142,
                   "indexed": true,
                   "mutability": "mutable",
                   "name": "userOpHash",
-                  "nameLocation": "1783:10:21",
+                  "nameLocation": "1783:10:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3318,
-                  "src": "1767:26:21",
+                  "scope": 4150,
+                  "src": "1767:26:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1494,10 +1494,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 3309,
+                    "id": 4141,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1767:7:21",
+                    "src": "1767:7:26",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1507,14 +1507,14 @@
                 },
                 {
                   "constant": false,
-                  "id": 3312,
+                  "id": 4144,
                   "indexed": true,
                   "mutability": "mutable",
                   "name": "sender",
-                  "nameLocation": "1811:6:21",
+                  "nameLocation": "1811:6:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3318,
-                  "src": "1795:22:21",
+                  "scope": 4150,
+                  "src": "1795:22:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1522,10 +1522,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 3311,
+                    "id": 4143,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1795:7:21",
+                    "src": "1795:7:26",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1536,14 +1536,14 @@
                 },
                 {
                   "constant": false,
-                  "id": 3314,
+                  "id": 4146,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "factory",
-                  "nameLocation": "1827:7:21",
+                  "nameLocation": "1827:7:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3318,
-                  "src": "1819:15:21",
+                  "scope": 4150,
+                  "src": "1819:15:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1551,10 +1551,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 3313,
+                    "id": 4145,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1819:7:21",
+                    "src": "1819:7:26",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1565,14 +1565,14 @@
                 },
                 {
                   "constant": false,
-                  "id": 3316,
+                  "id": 4148,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "paymaster",
-                  "nameLocation": "1844:9:21",
+                  "nameLocation": "1844:9:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3318,
-                  "src": "1836:17:21",
+                  "scope": 4150,
+                  "src": "1836:17:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1580,10 +1580,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 3315,
+                    "id": 4147,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1836:7:21",
+                    "src": "1836:7:26",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1593,36 +1593,36 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1766:88:21"
+              "src": "1766:88:26"
             },
-            "src": "1745:110:21"
+            "src": "1745:110:26"
           },
           {
             "anonymous": false,
             "documentation": {
-              "id": 3319,
+              "id": 4151,
               "nodeType": "StructuredDocumentation",
-              "src": "1863:343:21",
+              "src": "1863:343:26",
               "text": " An event emitted if the UserOperation \"callData\" reverted with non-zero length\n @param userOpHash the request unique identifier.\n @param sender the sender of this request\n @param nonce the nonce used in the request\n @param revertReason - the return bytes from the (reverted) call to \"callData\"."
             },
-            "id": 3329,
+            "id": 4161,
             "name": "UserOperationRevertReason",
-            "nameLocation": "2218:25:21",
+            "nameLocation": "2218:25:26",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 3328,
+              "id": 4160,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3321,
+                  "id": 4153,
                   "indexed": true,
                   "mutability": "mutable",
                   "name": "userOpHash",
-                  "nameLocation": "2260:10:21",
+                  "nameLocation": "2260:10:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3329,
-                  "src": "2244:26:21",
+                  "scope": 4161,
+                  "src": "2244:26:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1630,10 +1630,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 3320,
+                    "id": 4152,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2244:7:21",
+                    "src": "2244:7:26",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1643,14 +1643,14 @@
                 },
                 {
                   "constant": false,
-                  "id": 3323,
+                  "id": 4155,
                   "indexed": true,
                   "mutability": "mutable",
                   "name": "sender",
-                  "nameLocation": "2288:6:21",
+                  "nameLocation": "2288:6:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3329,
-                  "src": "2272:22:21",
+                  "scope": 4161,
+                  "src": "2272:22:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1658,10 +1658,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 3322,
+                    "id": 4154,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2272:7:21",
+                    "src": "2272:7:26",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1672,14 +1672,14 @@
                 },
                 {
                   "constant": false,
-                  "id": 3325,
+                  "id": 4157,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "nonce",
-                  "nameLocation": "2304:5:21",
+                  "nameLocation": "2304:5:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3329,
-                  "src": "2296:13:21",
+                  "scope": 4161,
+                  "src": "2296:13:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1687,10 +1687,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 3324,
+                    "id": 4156,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2296:7:21",
+                    "src": "2296:7:26",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1700,14 +1700,14 @@
                 },
                 {
                   "constant": false,
-                  "id": 3327,
+                  "id": 4159,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "revertReason",
-                  "nameLocation": "2317:12:21",
+                  "nameLocation": "2317:12:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3329,
-                  "src": "2311:18:21",
+                  "scope": 4161,
+                  "src": "2311:18:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1715,10 +1715,10 @@
                     "typeString": "bytes"
                   },
                   "typeName": {
-                    "id": 3326,
+                    "id": 4158,
                     "name": "bytes",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2311:5:21",
+                    "src": "2311:5:26",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes_storage_ptr",
                       "typeString": "bytes"
@@ -1727,56 +1727,56 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "2243:87:21"
+              "src": "2243:87:26"
             },
-            "src": "2212:119:21"
+            "src": "2212:119:26"
           },
           {
             "anonymous": false,
             "documentation": {
-              "id": 3330,
+              "id": 4162,
               "nodeType": "StructuredDocumentation",
-              "src": "2339:161:21",
+              "src": "2339:161:26",
               "text": " an event emitted by handleOps(), before starting the execution loop.\n any event emitted before this event, is part of the validation."
             },
-            "id": 3332,
+            "id": 4164,
             "name": "BeforeExecution",
-            "nameLocation": "2512:15:21",
+            "nameLocation": "2512:15:26",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 3331,
+              "id": 4163,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "2527:2:21"
+              "src": "2527:2:26"
             },
-            "src": "2506:24:21"
+            "src": "2506:24:26"
           },
           {
             "anonymous": false,
             "documentation": {
-              "id": 3333,
+              "id": 4165,
               "nodeType": "StructuredDocumentation",
-              "src": "2538:103:21",
+              "src": "2538:103:26",
               "text": " signature aggregator used by the following UserOperationEvents within this bundle."
             },
-            "id": 3337,
+            "id": 4169,
             "name": "SignatureAggregatorChanged",
-            "nameLocation": "2653:26:21",
+            "nameLocation": "2653:26:26",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 3336,
+              "id": 4168,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3335,
+                  "id": 4167,
                   "indexed": true,
                   "mutability": "mutable",
                   "name": "aggregator",
-                  "nameLocation": "2696:10:21",
+                  "nameLocation": "2696:10:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3337,
-                  "src": "2680:26:21",
+                  "scope": 4169,
+                  "src": "2680:26:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1784,10 +1784,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 3334,
+                    "id": 4166,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2680:7:21",
+                    "src": "2680:7:26",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1797,34 +1797,34 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "2679:28:21"
+              "src": "2679:28:26"
             },
-            "src": "2647:61:21"
+            "src": "2647:61:26"
           },
           {
             "documentation": {
-              "id": 3338,
+              "id": 4170,
               "nodeType": "StructuredDocumentation",
-              "src": "2716:765:21",
+              "src": "2716:765:26",
               "text": " a custom revert error of handleOps, to identify the offending op.\n  NOTE: if simulateValidation passes successfully, there should be no reason for handleOps to fail on it.\n  @param opIndex - index into the array of ops to the failed one (in simulateValidation, this is always zero)\n  @param reason - revert reason\n      The string starts with a unique code \"AAmn\", where \"m\" is \"1\" for factory, \"2\" for account and \"3\" for paymaster issues,\n      so a failure can be attributed to the correct entity.\n   Should be caught in off-chain handleOps simulation and not happen on-chain.\n   Useful for mitigating DoS attempts against batchers or for troubleshooting of factory/account/paymaster reverts."
             },
-            "id": 3344,
+            "id": 4176,
             "name": "FailedOp",
-            "nameLocation": "3493:8:21",
+            "nameLocation": "3493:8:26",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 3343,
+              "id": 4175,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3340,
+                  "id": 4172,
                   "mutability": "mutable",
                   "name": "opIndex",
-                  "nameLocation": "3510:7:21",
+                  "nameLocation": "3510:7:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3344,
-                  "src": "3502:15:21",
+                  "scope": 4176,
+                  "src": "3502:15:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1832,10 +1832,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 3339,
+                    "id": 4171,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "3502:7:21",
+                    "src": "3502:7:26",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1845,13 +1845,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 3342,
+                  "id": 4174,
                   "mutability": "mutable",
                   "name": "reason",
-                  "nameLocation": "3526:6:21",
+                  "nameLocation": "3526:6:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3344,
-                  "src": "3519:13:21",
+                  "scope": 4176,
+                  "src": "3519:13:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1859,10 +1859,10 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 3341,
+                    "id": 4173,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "3519:6:21",
+                    "src": "3519:6:26",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -1871,34 +1871,34 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "3501:32:21"
+              "src": "3501:32:26"
             },
-            "src": "3487:47:21"
+            "src": "3487:47:26"
           },
           {
             "documentation": {
-              "id": 3345,
+              "id": 4177,
               "nodeType": "StructuredDocumentation",
-              "src": "3542:116:21",
+              "src": "3542:116:26",
               "text": " error case when a signature aggregator fails to verify the aggregated signature it had created."
             },
-            "id": 3349,
+            "id": 4181,
             "name": "SignatureValidationFailed",
-            "nameLocation": "3670:25:21",
+            "nameLocation": "3670:25:26",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 3348,
+              "id": 4180,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3347,
+                  "id": 4179,
                   "mutability": "mutable",
                   "name": "aggregator",
-                  "nameLocation": "3704:10:21",
+                  "nameLocation": "3704:10:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3349,
-                  "src": "3696:18:21",
+                  "scope": 4181,
+                  "src": "3696:18:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1906,10 +1906,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 3346,
+                    "id": 4178,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "3696:7:21",
+                    "src": "3696:7:26",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1919,54 +1919,54 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "3695:20:21"
+              "src": "3695:20:26"
             },
-            "src": "3664:52:21"
+            "src": "3664:52:26"
           },
           {
             "documentation": {
-              "id": 3350,
+              "id": 4182,
               "nodeType": "StructuredDocumentation",
-              "src": "3724:333:21",
+              "src": "3724:333:26",
               "text": " Successful result from simulateValidation.\n @param returnInfo gas and time-range returned values\n @param senderInfo stake information about the sender\n @param factoryInfo stake information about the factory (if any)\n @param paymasterInfo stake information about the paymaster (if any)"
             },
-            "id": 3364,
+            "id": 4196,
             "name": "ValidationResult",
-            "nameLocation": "4069:16:21",
+            "nameLocation": "4069:16:26",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 3363,
+              "id": 4195,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3353,
+                  "id": 4185,
                   "mutability": "mutable",
                   "name": "returnInfo",
-                  "nameLocation": "4097:10:21",
+                  "nameLocation": "4097:10:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3364,
-                  "src": "4086:21:21",
+                  "scope": 4196,
+                  "src": "4086:21:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_ReturnInfo_$3461_memory_ptr",
+                    "typeIdentifier": "t_struct$_ReturnInfo_$4293_memory_ptr",
                     "typeString": "struct IEntryPoint.ReturnInfo"
                   },
                   "typeName": {
-                    "id": 3352,
+                    "id": 4184,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 3351,
+                      "id": 4183,
                       "name": "ReturnInfo",
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 3461,
-                      "src": "4086:10:21"
+                      "referencedDeclaration": 4293,
+                      "src": "4086:10:26"
                     },
-                    "referencedDeclaration": 3461,
-                    "src": "4086:10:21",
+                    "referencedDeclaration": 4293,
+                    "src": "4086:10:26",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_ReturnInfo_$3461_storage_ptr",
+                      "typeIdentifier": "t_struct$_ReturnInfo_$4293_storage_ptr",
                       "typeString": "struct IEntryPoint.ReturnInfo"
                     }
                   },
@@ -1974,33 +1974,33 @@
                 },
                 {
                   "constant": false,
-                  "id": 3356,
+                  "id": 4188,
                   "mutability": "mutable",
                   "name": "senderInfo",
-                  "nameLocation": "4128:10:21",
+                  "nameLocation": "4128:10:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3364,
-                  "src": "4118:20:21",
+                  "scope": 4196,
+                  "src": "4118:20:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_StakeInfo_$3561_memory_ptr",
+                    "typeIdentifier": "t_struct$_StakeInfo_$4393_memory_ptr",
                     "typeString": "struct IStakeManager.StakeInfo"
                   },
                   "typeName": {
-                    "id": 3355,
+                    "id": 4187,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 3354,
+                      "id": 4186,
                       "name": "StakeInfo",
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 3561,
-                      "src": "4118:9:21"
+                      "referencedDeclaration": 4393,
+                      "src": "4118:9:26"
                     },
-                    "referencedDeclaration": 3561,
-                    "src": "4118:9:21",
+                    "referencedDeclaration": 4393,
+                    "src": "4118:9:26",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_StakeInfo_$3561_storage_ptr",
+                      "typeIdentifier": "t_struct$_StakeInfo_$4393_storage_ptr",
                       "typeString": "struct IStakeManager.StakeInfo"
                     }
                   },
@@ -2008,33 +2008,33 @@
                 },
                 {
                   "constant": false,
-                  "id": 3359,
+                  "id": 4191,
                   "mutability": "mutable",
                   "name": "factoryInfo",
-                  "nameLocation": "4150:11:21",
+                  "nameLocation": "4150:11:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3364,
-                  "src": "4140:21:21",
+                  "scope": 4196,
+                  "src": "4140:21:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_StakeInfo_$3561_memory_ptr",
+                    "typeIdentifier": "t_struct$_StakeInfo_$4393_memory_ptr",
                     "typeString": "struct IStakeManager.StakeInfo"
                   },
                   "typeName": {
-                    "id": 3358,
+                    "id": 4190,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 3357,
+                      "id": 4189,
                       "name": "StakeInfo",
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 3561,
-                      "src": "4140:9:21"
+                      "referencedDeclaration": 4393,
+                      "src": "4140:9:26"
                     },
-                    "referencedDeclaration": 3561,
-                    "src": "4140:9:21",
+                    "referencedDeclaration": 4393,
+                    "src": "4140:9:26",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_StakeInfo_$3561_storage_ptr",
+                      "typeIdentifier": "t_struct$_StakeInfo_$4393_storage_ptr",
                       "typeString": "struct IStakeManager.StakeInfo"
                     }
                   },
@@ -2042,87 +2042,87 @@
                 },
                 {
                   "constant": false,
-                  "id": 3362,
+                  "id": 4194,
                   "mutability": "mutable",
                   "name": "paymasterInfo",
-                  "nameLocation": "4173:13:21",
+                  "nameLocation": "4173:13:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3364,
-                  "src": "4163:23:21",
+                  "scope": 4196,
+                  "src": "4163:23:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_StakeInfo_$3561_memory_ptr",
+                    "typeIdentifier": "t_struct$_StakeInfo_$4393_memory_ptr",
                     "typeString": "struct IStakeManager.StakeInfo"
                   },
                   "typeName": {
-                    "id": 3361,
+                    "id": 4193,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 3360,
+                      "id": 4192,
                       "name": "StakeInfo",
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 3561,
-                      "src": "4163:9:21"
+                      "referencedDeclaration": 4393,
+                      "src": "4163:9:26"
                     },
-                    "referencedDeclaration": 3561,
-                    "src": "4163:9:21",
+                    "referencedDeclaration": 4393,
+                    "src": "4163:9:26",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_StakeInfo_$3561_storage_ptr",
+                      "typeIdentifier": "t_struct$_StakeInfo_$4393_storage_ptr",
                       "typeString": "struct IStakeManager.StakeInfo"
                     }
                   },
                   "visibility": "internal"
                 }
               ],
-              "src": "4085:102:21"
+              "src": "4085:102:26"
             },
-            "src": "4063:125:21"
+            "src": "4063:125:26"
           },
           {
             "documentation": {
-              "id": 3365,
+              "id": 4197,
               "nodeType": "StructuredDocumentation",
-              "src": "4196:569:21",
+              "src": "4196:569:26",
               "text": " Successful result from simulateValidation, if the account returns a signature aggregator\n @param returnInfo gas and time-range returned values\n @param senderInfo stake information about the sender\n @param factoryInfo stake information about the factory (if any)\n @param paymasterInfo stake information about the paymaster (if any)\n @param aggregatorInfo signature aggregation info (if the account requires signature aggregator)\n      bundler MUST use it to verify the signature, or reject the UserOperation"
             },
-            "id": 3382,
+            "id": 4214,
             "name": "ValidationResultWithAggregation",
-            "nameLocation": "4777:31:21",
+            "nameLocation": "4777:31:26",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 3381,
+              "id": 4213,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3368,
+                  "id": 4200,
                   "mutability": "mutable",
                   "name": "returnInfo",
-                  "nameLocation": "4820:10:21",
+                  "nameLocation": "4820:10:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3382,
-                  "src": "4809:21:21",
+                  "scope": 4214,
+                  "src": "4809:21:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_ReturnInfo_$3461_memory_ptr",
+                    "typeIdentifier": "t_struct$_ReturnInfo_$4293_memory_ptr",
                     "typeString": "struct IEntryPoint.ReturnInfo"
                   },
                   "typeName": {
-                    "id": 3367,
+                    "id": 4199,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 3366,
+                      "id": 4198,
                       "name": "ReturnInfo",
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 3461,
-                      "src": "4809:10:21"
+                      "referencedDeclaration": 4293,
+                      "src": "4809:10:26"
                     },
-                    "referencedDeclaration": 3461,
-                    "src": "4809:10:21",
+                    "referencedDeclaration": 4293,
+                    "src": "4809:10:26",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_ReturnInfo_$3461_storage_ptr",
+                      "typeIdentifier": "t_struct$_ReturnInfo_$4293_storage_ptr",
                       "typeString": "struct IEntryPoint.ReturnInfo"
                     }
                   },
@@ -2130,33 +2130,33 @@
                 },
                 {
                   "constant": false,
-                  "id": 3371,
+                  "id": 4203,
                   "mutability": "mutable",
                   "name": "senderInfo",
-                  "nameLocation": "4851:10:21",
+                  "nameLocation": "4851:10:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3382,
-                  "src": "4841:20:21",
+                  "scope": 4214,
+                  "src": "4841:20:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_StakeInfo_$3561_memory_ptr",
+                    "typeIdentifier": "t_struct$_StakeInfo_$4393_memory_ptr",
                     "typeString": "struct IStakeManager.StakeInfo"
                   },
                   "typeName": {
-                    "id": 3370,
+                    "id": 4202,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 3369,
+                      "id": 4201,
                       "name": "StakeInfo",
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 3561,
-                      "src": "4841:9:21"
+                      "referencedDeclaration": 4393,
+                      "src": "4841:9:26"
                     },
-                    "referencedDeclaration": 3561,
-                    "src": "4841:9:21",
+                    "referencedDeclaration": 4393,
+                    "src": "4841:9:26",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_StakeInfo_$3561_storage_ptr",
+                      "typeIdentifier": "t_struct$_StakeInfo_$4393_storage_ptr",
                       "typeString": "struct IStakeManager.StakeInfo"
                     }
                   },
@@ -2164,33 +2164,33 @@
                 },
                 {
                   "constant": false,
-                  "id": 3374,
+                  "id": 4206,
                   "mutability": "mutable",
                   "name": "factoryInfo",
-                  "nameLocation": "4873:11:21",
+                  "nameLocation": "4873:11:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3382,
-                  "src": "4863:21:21",
+                  "scope": 4214,
+                  "src": "4863:21:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_StakeInfo_$3561_memory_ptr",
+                    "typeIdentifier": "t_struct$_StakeInfo_$4393_memory_ptr",
                     "typeString": "struct IStakeManager.StakeInfo"
                   },
                   "typeName": {
-                    "id": 3373,
+                    "id": 4205,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 3372,
+                      "id": 4204,
                       "name": "StakeInfo",
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 3561,
-                      "src": "4863:9:21"
+                      "referencedDeclaration": 4393,
+                      "src": "4863:9:26"
                     },
-                    "referencedDeclaration": 3561,
-                    "src": "4863:9:21",
+                    "referencedDeclaration": 4393,
+                    "src": "4863:9:26",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_StakeInfo_$3561_storage_ptr",
+                      "typeIdentifier": "t_struct$_StakeInfo_$4393_storage_ptr",
                       "typeString": "struct IStakeManager.StakeInfo"
                     }
                   },
@@ -2198,33 +2198,33 @@
                 },
                 {
                   "constant": false,
-                  "id": 3377,
+                  "id": 4209,
                   "mutability": "mutable",
                   "name": "paymasterInfo",
-                  "nameLocation": "4896:13:21",
+                  "nameLocation": "4896:13:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3382,
-                  "src": "4886:23:21",
+                  "scope": 4214,
+                  "src": "4886:23:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_StakeInfo_$3561_memory_ptr",
+                    "typeIdentifier": "t_struct$_StakeInfo_$4393_memory_ptr",
                     "typeString": "struct IStakeManager.StakeInfo"
                   },
                   "typeName": {
-                    "id": 3376,
+                    "id": 4208,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 3375,
+                      "id": 4207,
                       "name": "StakeInfo",
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 3561,
-                      "src": "4886:9:21"
+                      "referencedDeclaration": 4393,
+                      "src": "4886:9:26"
                     },
-                    "referencedDeclaration": 3561,
-                    "src": "4886:9:21",
+                    "referencedDeclaration": 4393,
+                    "src": "4886:9:26",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_StakeInfo_$3561_storage_ptr",
+                      "typeIdentifier": "t_struct$_StakeInfo_$4393_storage_ptr",
                       "typeString": "struct IStakeManager.StakeInfo"
                     }
                   },
@@ -2232,67 +2232,67 @@
                 },
                 {
                   "constant": false,
-                  "id": 3380,
+                  "id": 4212,
                   "mutability": "mutable",
                   "name": "aggregatorInfo",
-                  "nameLocation": "4940:14:21",
+                  "nameLocation": "4940:14:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3382,
-                  "src": "4920:34:21",
+                  "scope": 4214,
+                  "src": "4920:34:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_AggregatorStakeInfo_$3467_memory_ptr",
+                    "typeIdentifier": "t_struct$_AggregatorStakeInfo_$4299_memory_ptr",
                     "typeString": "struct IEntryPoint.AggregatorStakeInfo"
                   },
                   "typeName": {
-                    "id": 3379,
+                    "id": 4211,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 3378,
+                      "id": 4210,
                       "name": "AggregatorStakeInfo",
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 3467,
-                      "src": "4920:19:21"
+                      "referencedDeclaration": 4299,
+                      "src": "4920:19:26"
                     },
-                    "referencedDeclaration": 3467,
-                    "src": "4920:19:21",
+                    "referencedDeclaration": 4299,
+                    "src": "4920:19:26",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_AggregatorStakeInfo_$3467_storage_ptr",
+                      "typeIdentifier": "t_struct$_AggregatorStakeInfo_$4299_storage_ptr",
                       "typeString": "struct IEntryPoint.AggregatorStakeInfo"
                     }
                   },
                   "visibility": "internal"
                 }
               ],
-              "src": "4808:147:21"
+              "src": "4808:147:26"
             },
-            "src": "4771:185:21"
+            "src": "4771:185:26"
           },
           {
             "documentation": {
-              "id": 3383,
+              "id": 4215,
               "nodeType": "StructuredDocumentation",
-              "src": "4964:53:21",
+              "src": "4964:53:26",
               "text": " return value of getSenderAddress"
             },
-            "id": 3387,
+            "id": 4219,
             "name": "SenderAddressResult",
-            "nameLocation": "5029:19:21",
+            "nameLocation": "5029:19:26",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 3386,
+              "id": 4218,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3385,
+                  "id": 4217,
                   "mutability": "mutable",
                   "name": "sender",
-                  "nameLocation": "5057:6:21",
+                  "nameLocation": "5057:6:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3387,
-                  "src": "5049:14:21",
+                  "scope": 4219,
+                  "src": "5049:14:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2300,10 +2300,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 3384,
+                    "id": 4216,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "5049:7:21",
+                    "src": "5049:7:26",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -2313,34 +2313,34 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "5048:16:21"
+              "src": "5048:16:26"
             },
-            "src": "5023:42:21"
+            "src": "5023:42:26"
           },
           {
             "documentation": {
-              "id": 3388,
+              "id": 4220,
               "nodeType": "StructuredDocumentation",
-              "src": "5073:53:21",
+              "src": "5073:53:26",
               "text": " return value of simulateHandleOp"
             },
-            "id": 3402,
+            "id": 4234,
             "name": "ExecutionResult",
-            "nameLocation": "5138:15:21",
+            "nameLocation": "5138:15:26",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 3401,
+              "id": 4233,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3390,
+                  "id": 4222,
                   "mutability": "mutable",
                   "name": "preOpGas",
-                  "nameLocation": "5162:8:21",
+                  "nameLocation": "5162:8:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3402,
-                  "src": "5154:16:21",
+                  "scope": 4234,
+                  "src": "5154:16:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2348,10 +2348,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 3389,
+                    "id": 4221,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "5154:7:21",
+                    "src": "5154:7:26",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2361,13 +2361,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 3392,
+                  "id": 4224,
                   "mutability": "mutable",
                   "name": "paid",
-                  "nameLocation": "5180:4:21",
+                  "nameLocation": "5180:4:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3402,
-                  "src": "5172:12:21",
+                  "scope": 4234,
+                  "src": "5172:12:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2375,10 +2375,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 3391,
+                    "id": 4223,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "5172:7:21",
+                    "src": "5172:7:26",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2388,13 +2388,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 3394,
+                  "id": 4226,
                   "mutability": "mutable",
                   "name": "validAfter",
-                  "nameLocation": "5193:10:21",
+                  "nameLocation": "5193:10:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3402,
-                  "src": "5186:17:21",
+                  "scope": 4234,
+                  "src": "5186:17:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2402,10 +2402,10 @@
                     "typeString": "uint48"
                   },
                   "typeName": {
-                    "id": 3393,
+                    "id": 4225,
                     "name": "uint48",
                     "nodeType": "ElementaryTypeName",
-                    "src": "5186:6:21",
+                    "src": "5186:6:26",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint48",
                       "typeString": "uint48"
@@ -2415,13 +2415,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 3396,
+                  "id": 4228,
                   "mutability": "mutable",
                   "name": "validUntil",
-                  "nameLocation": "5212:10:21",
+                  "nameLocation": "5212:10:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3402,
-                  "src": "5205:17:21",
+                  "scope": 4234,
+                  "src": "5205:17:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2429,10 +2429,10 @@
                     "typeString": "uint48"
                   },
                   "typeName": {
-                    "id": 3395,
+                    "id": 4227,
                     "name": "uint48",
                     "nodeType": "ElementaryTypeName",
-                    "src": "5205:6:21",
+                    "src": "5205:6:26",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint48",
                       "typeString": "uint48"
@@ -2442,13 +2442,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 3398,
+                  "id": 4230,
                   "mutability": "mutable",
                   "name": "targetSuccess",
-                  "nameLocation": "5229:13:21",
+                  "nameLocation": "5229:13:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3402,
-                  "src": "5224:18:21",
+                  "scope": 4234,
+                  "src": "5224:18:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2456,10 +2456,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 3397,
+                    "id": 4229,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "5224:4:21",
+                    "src": "5224:4:26",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -2469,13 +2469,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 3400,
+                  "id": 4232,
                   "mutability": "mutable",
                   "name": "targetResult",
-                  "nameLocation": "5250:12:21",
+                  "nameLocation": "5250:12:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3402,
-                  "src": "5244:18:21",
+                  "scope": 4234,
+                  "src": "5244:18:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2483,10 +2483,10 @@
                     "typeString": "bytes"
                   },
                   "typeName": {
-                    "id": 3399,
+                    "id": 4231,
                     "name": "bytes",
                     "nodeType": "ElementaryTypeName",
-                    "src": "5244:5:21",
+                    "src": "5244:5:26",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes_storage_ptr",
                       "typeString": "bytes"
@@ -2495,52 +2495,52 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "5153:110:21"
+              "src": "5153:110:26"
             },
-            "src": "5132:132:21"
+            "src": "5132:132:26"
           },
           {
             "canonicalName": "IEntryPoint.UserOpsPerAggregator",
-            "id": 3412,
+            "id": 4244,
             "members": [
               {
                 "constant": false,
-                "id": 3406,
+                "id": 4238,
                 "mutability": "mutable",
                 "name": "userOps",
-                "nameLocation": "5366:7:21",
+                "nameLocation": "5366:7:26",
                 "nodeType": "VariableDeclaration",
-                "scope": 3412,
-                "src": "5350:23:21",
+                "scope": 4244,
+                "src": "5350:23:26",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_array$_t_struct$_UserOperation_$3636_storage_$dyn_storage_ptr",
+                  "typeIdentifier": "t_array$_t_struct$_UserOperation_$4468_storage_$dyn_storage_ptr",
                   "typeString": "struct UserOperation[]"
                 },
                 "typeName": {
                   "baseType": {
-                    "id": 3404,
+                    "id": 4236,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 3403,
+                      "id": 4235,
                       "name": "UserOperation",
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 3636,
-                      "src": "5350:13:21"
+                      "referencedDeclaration": 4468,
+                      "src": "5350:13:26"
                     },
-                    "referencedDeclaration": 3636,
-                    "src": "5350:13:21",
+                    "referencedDeclaration": 4468,
+                    "src": "5350:13:26",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_UserOperation_$3636_storage_ptr",
+                      "typeIdentifier": "t_struct$_UserOperation_$4468_storage_ptr",
                       "typeString": "struct UserOperation"
                     }
                   },
-                  "id": 3405,
+                  "id": 4237,
                   "nodeType": "ArrayTypeName",
-                  "src": "5350:15:21",
+                  "src": "5350:15:26",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_array$_t_struct$_UserOperation_$3636_storage_$dyn_storage_ptr",
+                    "typeIdentifier": "t_array$_t_struct$_UserOperation_$4468_storage_$dyn_storage_ptr",
                     "typeString": "struct UserOperation[]"
                   }
                 },
@@ -2548,33 +2548,33 @@
               },
               {
                 "constant": false,
-                "id": 3409,
+                "id": 4241,
                 "mutability": "mutable",
                 "name": "aggregator",
-                "nameLocation": "5429:10:21",
+                "nameLocation": "5429:10:26",
                 "nodeType": "VariableDeclaration",
-                "scope": 3412,
-                "src": "5417:22:21",
+                "scope": 4244,
+                "src": "5417:22:26",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_contract$_IAggregator_$3281",
+                  "typeIdentifier": "t_contract$_IAggregator_$4113",
                   "typeString": "contract IAggregator"
                 },
                 "typeName": {
-                  "id": 3408,
+                  "id": 4240,
                   "nodeType": "UserDefinedTypeName",
                   "pathNode": {
-                    "id": 3407,
+                    "id": 4239,
                     "name": "IAggregator",
                     "nodeType": "IdentifierPath",
-                    "referencedDeclaration": 3281,
-                    "src": "5417:11:21"
+                    "referencedDeclaration": 4113,
+                    "src": "5417:11:26"
                   },
-                  "referencedDeclaration": 3281,
-                  "src": "5417:11:21",
+                  "referencedDeclaration": 4113,
+                  "src": "5417:11:26",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IAggregator_$3281",
+                    "typeIdentifier": "t_contract$_IAggregator_$4113",
                     "typeString": "contract IAggregator"
                   }
                 },
@@ -2582,13 +2582,13 @@
               },
               {
                 "constant": false,
-                "id": 3411,
+                "id": 4243,
                 "mutability": "mutable",
                 "name": "signature",
-                "nameLocation": "5489:9:21",
+                "nameLocation": "5489:9:26",
                 "nodeType": "VariableDeclaration",
-                "scope": 3412,
-                "src": "5483:15:21",
+                "scope": 4244,
+                "src": "5483:15:26",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -2596,10 +2596,10 @@
                   "typeString": "bytes"
                 },
                 "typeName": {
-                  "id": 3410,
+                  "id": 4242,
                   "name": "bytes",
                   "nodeType": "ElementaryTypeName",
-                  "src": "5483:5:21",
+                  "src": "5483:5:26",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bytes_storage_ptr",
                     "typeString": "bytes"
@@ -2609,69 +2609,69 @@
               }
             ],
             "name": "UserOpsPerAggregator",
-            "nameLocation": "5318:20:21",
+            "nameLocation": "5318:20:26",
             "nodeType": "StructDefinition",
-            "scope": 3485,
-            "src": "5311:195:21",
+            "scope": 4317,
+            "src": "5311:195:26",
             "visibility": "public"
           },
           {
             "documentation": {
-              "id": 3413,
+              "id": 4245,
               "nodeType": "StructuredDocumentation",
-              "src": "5514:375:21",
+              "src": "5514:375:26",
               "text": " Execute a batch of UserOperation.\n no signature aggregator is used.\n if any account requires an aggregator (that is, it returned an aggregator when\n performing simulateValidation), then handleAggregatedOps() must be used instead.\n @param ops the operations to execute\n @param beneficiary the address to receive the fees"
             },
             "functionSelector": "1fad948c",
-            "id": 3422,
+            "id": 4254,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "handleOps",
-            "nameLocation": "5904:9:21",
+            "nameLocation": "5904:9:26",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 3420,
+              "id": 4252,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3417,
+                  "id": 4249,
                   "mutability": "mutable",
                   "name": "ops",
-                  "nameLocation": "5939:3:21",
+                  "nameLocation": "5939:3:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3422,
-                  "src": "5914:28:21",
+                  "scope": 4254,
+                  "src": "5914:28:26",
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_array$_t_struct$_UserOperation_$3636_calldata_ptr_$dyn_calldata_ptr",
+                    "typeIdentifier": "t_array$_t_struct$_UserOperation_$4468_calldata_ptr_$dyn_calldata_ptr",
                     "typeString": "struct UserOperation[]"
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 3415,
+                      "id": 4247,
                       "nodeType": "UserDefinedTypeName",
                       "pathNode": {
-                        "id": 3414,
+                        "id": 4246,
                         "name": "UserOperation",
                         "nodeType": "IdentifierPath",
-                        "referencedDeclaration": 3636,
-                        "src": "5914:13:21"
+                        "referencedDeclaration": 4468,
+                        "src": "5914:13:26"
                       },
-                      "referencedDeclaration": 3636,
-                      "src": "5914:13:21",
+                      "referencedDeclaration": 4468,
+                      "src": "5914:13:26",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_UserOperation_$3636_storage_ptr",
+                        "typeIdentifier": "t_struct$_UserOperation_$4468_storage_ptr",
                         "typeString": "struct UserOperation"
                       }
                     },
-                    "id": 3416,
+                    "id": 4248,
                     "nodeType": "ArrayTypeName",
-                    "src": "5914:15:21",
+                    "src": "5914:15:26",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_array$_t_struct$_UserOperation_$3636_storage_$dyn_storage_ptr",
+                      "typeIdentifier": "t_array$_t_struct$_UserOperation_$4468_storage_$dyn_storage_ptr",
                       "typeString": "struct UserOperation[]"
                     }
                   },
@@ -2679,13 +2679,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 3419,
+                  "id": 4251,
                   "mutability": "mutable",
                   "name": "beneficiary",
-                  "nameLocation": "5960:11:21",
+                  "nameLocation": "5960:11:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3422,
-                  "src": "5944:27:21",
+                  "scope": 4254,
+                  "src": "5944:27:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2693,10 +2693,10 @@
                     "typeString": "address payable"
                   },
                   "typeName": {
-                    "id": 3418,
+                    "id": 4250,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "5944:15:21",
+                    "src": "5944:15:26",
                     "stateMutability": "payable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address_payable",
@@ -2706,77 +2706,77 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "5913:59:21"
+              "src": "5913:59:26"
             },
             "returnParameters": {
-              "id": 3421,
+              "id": 4253,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "5981:0:21"
+              "src": "5981:0:26"
             },
-            "scope": 3485,
-            "src": "5895:87:21",
+            "scope": 4317,
+            "src": "5895:87:26",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
             "documentation": {
-              "id": 3423,
+              "id": 4255,
               "nodeType": "StructuredDocumentation",
-              "src": "5990:253:21",
+              "src": "5990:253:26",
               "text": " Execute a batch of UserOperation with Aggregators\n @param opsPerAggregator the operations to execute, grouped by aggregator (or address(0) for no-aggregator accounts)\n @param beneficiary the address to receive the fees"
             },
             "functionSelector": "4b1d7cf5",
-            "id": 3432,
+            "id": 4264,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "handleAggregatedOps",
-            "nameLocation": "6258:19:21",
+            "nameLocation": "6258:19:26",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 3430,
+              "id": 4262,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3427,
+                  "id": 4259,
                   "mutability": "mutable",
                   "name": "opsPerAggregator",
-                  "nameLocation": "6320:16:21",
+                  "nameLocation": "6320:16:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3432,
-                  "src": "6288:48:21",
+                  "scope": 4264,
+                  "src": "6288:48:26",
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_array$_t_struct$_UserOpsPerAggregator_$3412_calldata_ptr_$dyn_calldata_ptr",
+                    "typeIdentifier": "t_array$_t_struct$_UserOpsPerAggregator_$4244_calldata_ptr_$dyn_calldata_ptr",
                     "typeString": "struct IEntryPoint.UserOpsPerAggregator[]"
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 3425,
+                      "id": 4257,
                       "nodeType": "UserDefinedTypeName",
                       "pathNode": {
-                        "id": 3424,
+                        "id": 4256,
                         "name": "UserOpsPerAggregator",
                         "nodeType": "IdentifierPath",
-                        "referencedDeclaration": 3412,
-                        "src": "6288:20:21"
+                        "referencedDeclaration": 4244,
+                        "src": "6288:20:26"
                       },
-                      "referencedDeclaration": 3412,
-                      "src": "6288:20:21",
+                      "referencedDeclaration": 4244,
+                      "src": "6288:20:26",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_UserOpsPerAggregator_$3412_storage_ptr",
+                        "typeIdentifier": "t_struct$_UserOpsPerAggregator_$4244_storage_ptr",
                         "typeString": "struct IEntryPoint.UserOpsPerAggregator"
                       }
                     },
-                    "id": 3426,
+                    "id": 4258,
                     "nodeType": "ArrayTypeName",
-                    "src": "6288:22:21",
+                    "src": "6288:22:26",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_array$_t_struct$_UserOpsPerAggregator_$3412_storage_$dyn_storage_ptr",
+                      "typeIdentifier": "t_array$_t_struct$_UserOpsPerAggregator_$4244_storage_$dyn_storage_ptr",
                       "typeString": "struct IEntryPoint.UserOpsPerAggregator[]"
                     }
                   },
@@ -2784,13 +2784,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 3429,
+                  "id": 4261,
                   "mutability": "mutable",
                   "name": "beneficiary",
-                  "nameLocation": "6363:11:21",
+                  "nameLocation": "6363:11:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3432,
-                  "src": "6347:27:21",
+                  "scope": 4264,
+                  "src": "6347:27:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2798,10 +2798,10 @@
                     "typeString": "address payable"
                   },
                   "typeName": {
-                    "id": 3428,
+                    "id": 4260,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "6347:15:21",
+                    "src": "6347:15:26",
                     "stateMutability": "payable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address_payable",
@@ -2811,89 +2811,89 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "6277:104:21"
+              "src": "6277:104:26"
             },
             "returnParameters": {
-              "id": 3431,
+              "id": 4263,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "6390:0:21"
+              "src": "6390:0:26"
             },
-            "scope": 3485,
-            "src": "6249:142:21",
+            "scope": 4317,
+            "src": "6249:142:26",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
             "documentation": {
-              "id": 3433,
+              "id": 4265,
               "nodeType": "StructuredDocumentation",
-              "src": "6399:200:21",
+              "src": "6399:200:26",
               "text": " generate a request Id - unique identifier for this request.\n the request ID is a hash over the content of the userOp (except the signature), the entrypoint and the chainid."
             },
             "functionSelector": "a6193531",
-            "id": 3441,
+            "id": 4273,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getUserOpHash",
-            "nameLocation": "6614:13:21",
+            "nameLocation": "6614:13:26",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 3437,
+              "id": 4269,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3436,
+                  "id": 4268,
                   "mutability": "mutable",
                   "name": "userOp",
-                  "nameLocation": "6651:6:21",
+                  "nameLocation": "6651:6:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3441,
-                  "src": "6628:29:21",
+                  "scope": 4273,
+                  "src": "6628:29:26",
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_UserOperation_$3636_calldata_ptr",
+                    "typeIdentifier": "t_struct$_UserOperation_$4468_calldata_ptr",
                     "typeString": "struct UserOperation"
                   },
                   "typeName": {
-                    "id": 3435,
+                    "id": 4267,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 3434,
+                      "id": 4266,
                       "name": "UserOperation",
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 3636,
-                      "src": "6628:13:21"
+                      "referencedDeclaration": 4468,
+                      "src": "6628:13:26"
                     },
-                    "referencedDeclaration": 3636,
-                    "src": "6628:13:21",
+                    "referencedDeclaration": 4468,
+                    "src": "6628:13:26",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_UserOperation_$3636_storage_ptr",
+                      "typeIdentifier": "t_struct$_UserOperation_$4468_storage_ptr",
                       "typeString": "struct UserOperation"
                     }
                   },
                   "visibility": "internal"
                 }
               ],
-              "src": "6627:31:21"
+              "src": "6627:31:26"
             },
             "returnParameters": {
-              "id": 3440,
+              "id": 4272,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3439,
+                  "id": 4271,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3441,
-                  "src": "6682:7:21",
+                  "scope": 4273,
+                  "src": "6682:7:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2901,10 +2901,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 3438,
+                    "id": 4270,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "6682:7:21",
+                    "src": "6682:7:26",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -2913,95 +2913,95 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "6681:9:21"
+              "src": "6681:9:26"
             },
-            "scope": 3485,
-            "src": "6605:86:21",
+            "scope": 4317,
+            "src": "6605:86:26",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
             "documentation": {
-              "id": 3442,
+              "id": 4274,
               "nodeType": "StructuredDocumentation",
-              "src": "6699:403:21",
+              "src": "6699:403:26",
               "text": " Simulate a call to account.validateUserOp and paymaster.validatePaymasterUserOp.\n @dev this method always revert. Successful result is ValidationResult error. other errors are failures.\n @dev The node must also verify it doesn't use banned opcodes, and that it doesn't reference storage outside the account's data.\n @param userOp the user operation to validate."
             },
             "functionSelector": "ee219423",
-            "id": 3448,
+            "id": 4280,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "simulateValidation",
-            "nameLocation": "7117:18:21",
+            "nameLocation": "7117:18:26",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 3446,
+              "id": 4278,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3445,
+                  "id": 4277,
                   "mutability": "mutable",
                   "name": "userOp",
-                  "nameLocation": "7159:6:21",
+                  "nameLocation": "7159:6:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3448,
-                  "src": "7136:29:21",
+                  "scope": 4280,
+                  "src": "7136:29:26",
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_UserOperation_$3636_calldata_ptr",
+                    "typeIdentifier": "t_struct$_UserOperation_$4468_calldata_ptr",
                     "typeString": "struct UserOperation"
                   },
                   "typeName": {
-                    "id": 3444,
+                    "id": 4276,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 3443,
+                      "id": 4275,
                       "name": "UserOperation",
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 3636,
-                      "src": "7136:13:21"
+                      "referencedDeclaration": 4468,
+                      "src": "7136:13:26"
                     },
-                    "referencedDeclaration": 3636,
-                    "src": "7136:13:21",
+                    "referencedDeclaration": 4468,
+                    "src": "7136:13:26",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_UserOperation_$3636_storage_ptr",
+                      "typeIdentifier": "t_struct$_UserOperation_$4468_storage_ptr",
                       "typeString": "struct UserOperation"
                     }
                   },
                   "visibility": "internal"
                 }
               ],
-              "src": "7135:31:21"
+              "src": "7135:31:26"
             },
             "returnParameters": {
-              "id": 3447,
+              "id": 4279,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "7175:0:21"
+              "src": "7175:0:26"
             },
-            "scope": 3485,
-            "src": "7108:68:21",
+            "scope": 4317,
+            "src": "7108:68:26",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
             "canonicalName": "IEntryPoint.ReturnInfo",
-            "id": 3461,
+            "id": 4293,
             "members": [
               {
                 "constant": false,
-                "id": 3450,
+                "id": 4282,
                 "mutability": "mutable",
                 "name": "preOpGas",
-                "nameLocation": "7823:8:21",
+                "nameLocation": "7823:8:26",
                 "nodeType": "VariableDeclaration",
-                "scope": 3461,
-                "src": "7815:16:21",
+                "scope": 4293,
+                "src": "7815:16:26",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -3009,10 +3009,10 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 3449,
+                  "id": 4281,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
-                  "src": "7815:7:21",
+                  "src": "7815:7:26",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -3022,13 +3022,13 @@
               },
               {
                 "constant": false,
-                "id": 3452,
+                "id": 4284,
                 "mutability": "mutable",
                 "name": "prefund",
-                "nameLocation": "7850:7:21",
+                "nameLocation": "7850:7:26",
                 "nodeType": "VariableDeclaration",
-                "scope": 3461,
-                "src": "7842:15:21",
+                "scope": 4293,
+                "src": "7842:15:26",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -3036,10 +3036,10 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 3451,
+                  "id": 4283,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
-                  "src": "7842:7:21",
+                  "src": "7842:7:26",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -3049,13 +3049,13 @@
               },
               {
                 "constant": false,
-                "id": 3454,
+                "id": 4286,
                 "mutability": "mutable",
                 "name": "sigFailed",
-                "nameLocation": "7873:9:21",
+                "nameLocation": "7873:9:26",
                 "nodeType": "VariableDeclaration",
-                "scope": 3461,
-                "src": "7868:14:21",
+                "scope": 4293,
+                "src": "7868:14:26",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -3063,10 +3063,10 @@
                   "typeString": "bool"
                 },
                 "typeName": {
-                  "id": 3453,
+                  "id": 4285,
                   "name": "bool",
                   "nodeType": "ElementaryTypeName",
-                  "src": "7868:4:21",
+                  "src": "7868:4:26",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bool",
                     "typeString": "bool"
@@ -3076,13 +3076,13 @@
               },
               {
                 "constant": false,
-                "id": 3456,
+                "id": 4288,
                 "mutability": "mutable",
                 "name": "validAfter",
-                "nameLocation": "7900:10:21",
+                "nameLocation": "7900:10:26",
                 "nodeType": "VariableDeclaration",
-                "scope": 3461,
-                "src": "7893:17:21",
+                "scope": 4293,
+                "src": "7893:17:26",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -3090,10 +3090,10 @@
                   "typeString": "uint48"
                 },
                 "typeName": {
-                  "id": 3455,
+                  "id": 4287,
                   "name": "uint48",
                   "nodeType": "ElementaryTypeName",
-                  "src": "7893:6:21",
+                  "src": "7893:6:26",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint48",
                     "typeString": "uint48"
@@ -3103,13 +3103,13 @@
               },
               {
                 "constant": false,
-                "id": 3458,
+                "id": 4290,
                 "mutability": "mutable",
                 "name": "validUntil",
-                "nameLocation": "7928:10:21",
+                "nameLocation": "7928:10:26",
                 "nodeType": "VariableDeclaration",
-                "scope": 3461,
-                "src": "7921:17:21",
+                "scope": 4293,
+                "src": "7921:17:26",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -3117,10 +3117,10 @@
                   "typeString": "uint48"
                 },
                 "typeName": {
-                  "id": 3457,
+                  "id": 4289,
                   "name": "uint48",
                   "nodeType": "ElementaryTypeName",
-                  "src": "7921:6:21",
+                  "src": "7921:6:26",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint48",
                     "typeString": "uint48"
@@ -3130,13 +3130,13 @@
               },
               {
                 "constant": false,
-                "id": 3460,
+                "id": 4292,
                 "mutability": "mutable",
                 "name": "paymasterContext",
-                "nameLocation": "7955:16:21",
+                "nameLocation": "7955:16:26",
                 "nodeType": "VariableDeclaration",
-                "scope": 3461,
-                "src": "7949:22:21",
+                "scope": 4293,
+                "src": "7949:22:26",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -3144,10 +3144,10 @@
                   "typeString": "bytes"
                 },
                 "typeName": {
-                  "id": 3459,
+                  "id": 4291,
                   "name": "bytes",
                   "nodeType": "ElementaryTypeName",
-                  "src": "7949:5:21",
+                  "src": "7949:5:26",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bytes_storage_ptr",
                     "typeString": "bytes"
@@ -3157,25 +3157,25 @@
               }
             ],
             "name": "ReturnInfo",
-            "nameLocation": "7793:10:21",
+            "nameLocation": "7793:10:26",
             "nodeType": "StructDefinition",
-            "scope": 3485,
-            "src": "7786:193:21",
+            "scope": 4317,
+            "src": "7786:193:26",
             "visibility": "public"
           },
           {
             "canonicalName": "IEntryPoint.AggregatorStakeInfo",
-            "id": 3467,
+            "id": 4299,
             "members": [
               {
                 "constant": false,
-                "id": 3463,
+                "id": 4295,
                 "mutability": "mutable",
                 "name": "aggregator",
-                "nameLocation": "8166:10:21",
+                "nameLocation": "8166:10:26",
                 "nodeType": "VariableDeclaration",
-                "scope": 3467,
-                "src": "8158:18:21",
+                "scope": 4299,
+                "src": "8158:18:26",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -3183,10 +3183,10 @@
                   "typeString": "address"
                 },
                 "typeName": {
-                  "id": 3462,
+                  "id": 4294,
                   "name": "address",
                   "nodeType": "ElementaryTypeName",
-                  "src": "8158:7:21",
+                  "src": "8158:7:26",
                   "stateMutability": "nonpayable",
                   "typeDescriptions": {
                     "typeIdentifier": "t_address",
@@ -3197,33 +3197,33 @@
               },
               {
                 "constant": false,
-                "id": 3466,
+                "id": 4298,
                 "mutability": "mutable",
                 "name": "stakeInfo",
-                "nameLocation": "8197:9:21",
+                "nameLocation": "8197:9:26",
                 "nodeType": "VariableDeclaration",
-                "scope": 3467,
-                "src": "8187:19:21",
+                "scope": 4299,
+                "src": "8187:19:26",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_StakeInfo_$3561_storage_ptr",
+                  "typeIdentifier": "t_struct$_StakeInfo_$4393_storage_ptr",
                   "typeString": "struct IStakeManager.StakeInfo"
                 },
                 "typeName": {
-                  "id": 3465,
+                  "id": 4297,
                   "nodeType": "UserDefinedTypeName",
                   "pathNode": {
-                    "id": 3464,
+                    "id": 4296,
                     "name": "StakeInfo",
                     "nodeType": "IdentifierPath",
-                    "referencedDeclaration": 3561,
-                    "src": "8187:9:21"
+                    "referencedDeclaration": 4393,
+                    "src": "8187:9:26"
                   },
-                  "referencedDeclaration": 3561,
-                  "src": "8187:9:21",
+                  "referencedDeclaration": 4393,
+                  "src": "8187:9:26",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_StakeInfo_$3561_storage_ptr",
+                    "typeIdentifier": "t_struct$_StakeInfo_$4393_storage_ptr",
                     "typeString": "struct IStakeManager.StakeInfo"
                   }
                 },
@@ -3231,40 +3231,40 @@
               }
             ],
             "name": "AggregatorStakeInfo",
-            "nameLocation": "8127:19:21",
+            "nameLocation": "8127:19:26",
             "nodeType": "StructDefinition",
-            "scope": 3485,
-            "src": "8120:94:21",
+            "scope": 4317,
+            "src": "8120:94:26",
             "visibility": "public"
           },
           {
             "documentation": {
-              "id": 3468,
+              "id": 4300,
               "nodeType": "StructuredDocumentation",
-              "src": "8222:342:21",
+              "src": "8222:342:26",
               "text": " Get counterfactual sender address.\n  Calculate the sender contract address that will be generated by the initCode and salt in the UserOperation.\n this method always revert, and returns the address in SenderAddressResult error\n @param initCode the constructor code to be passed into the UserOperation."
             },
             "functionSelector": "9b249f69",
-            "id": 3473,
+            "id": 4305,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getSenderAddress",
-            "nameLocation": "8579:16:21",
+            "nameLocation": "8579:16:26",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 3471,
+              "id": 4303,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3470,
+                  "id": 4302,
                   "mutability": "mutable",
                   "name": "initCode",
-                  "nameLocation": "8609:8:21",
+                  "nameLocation": "8609:8:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3473,
-                  "src": "8596:21:21",
+                  "scope": 4305,
+                  "src": "8596:21:26",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -3272,10 +3272,10 @@
                     "typeString": "bytes"
                   },
                   "typeName": {
-                    "id": 3469,
+                    "id": 4301,
                     "name": "bytes",
                     "nodeType": "ElementaryTypeName",
-                    "src": "8596:5:21",
+                    "src": "8596:5:26",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes_storage_ptr",
                       "typeString": "bytes"
@@ -3284,68 +3284,68 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "8595:23:21"
+              "src": "8595:23:26"
             },
             "returnParameters": {
-              "id": 3472,
+              "id": 4304,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "8627:0:21"
+              "src": "8627:0:26"
             },
-            "scope": 3485,
-            "src": "8570:58:21",
+            "scope": 4317,
+            "src": "8570:58:26",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
             "documentation": {
-              "id": 3474,
+              "id": 4306,
               "nodeType": "StructuredDocumentation",
-              "src": "8638:859:21",
+              "src": "8638:859:26",
               "text": " simulate full execution of a UserOperation (including both validation and target execution)\n this method will always revert with \"ExecutionResult\".\n it performs full validation of the UserOperation, but ignores signature error.\n an optional target address is called after the userop succeeds, and its value is returned\n (before the entire call is reverted)\n Note that in order to collect the the success/failure of the target call, it must be executed\n with trace enabled to track the emitted events.\n @param op the UserOperation to simulate\n @param target if nonzero, a target address to call after userop simulation. If called, the targetSuccess and targetResult\n        are set to the return from that call.\n @param targetCallData callData to pass to target address"
             },
             "functionSelector": "d6383f94",
-            "id": 3484,
+            "id": 4316,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "simulateHandleOp",
-            "nameLocation": "9512:16:21",
+            "nameLocation": "9512:16:26",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 3482,
+              "id": 4314,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3477,
+                  "id": 4309,
                   "mutability": "mutable",
                   "name": "op",
-                  "nameLocation": "9552:2:21",
+                  "nameLocation": "9552:2:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3484,
-                  "src": "9529:25:21",
+                  "scope": 4316,
+                  "src": "9529:25:26",
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_UserOperation_$3636_calldata_ptr",
+                    "typeIdentifier": "t_struct$_UserOperation_$4468_calldata_ptr",
                     "typeString": "struct UserOperation"
                   },
                   "typeName": {
-                    "id": 3476,
+                    "id": 4308,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 3475,
+                      "id": 4307,
                       "name": "UserOperation",
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 3636,
-                      "src": "9529:13:21"
+                      "referencedDeclaration": 4468,
+                      "src": "9529:13:26"
                     },
-                    "referencedDeclaration": 3636,
-                    "src": "9529:13:21",
+                    "referencedDeclaration": 4468,
+                    "src": "9529:13:26",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_UserOperation_$3636_storage_ptr",
+                      "typeIdentifier": "t_struct$_UserOperation_$4468_storage_ptr",
                       "typeString": "struct UserOperation"
                     }
                   },
@@ -3353,13 +3353,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 3479,
+                  "id": 4311,
                   "mutability": "mutable",
                   "name": "target",
-                  "nameLocation": "9564:6:21",
+                  "nameLocation": "9564:6:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3484,
-                  "src": "9556:14:21",
+                  "scope": 4316,
+                  "src": "9556:14:26",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3367,10 +3367,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 3478,
+                    "id": 4310,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "9556:7:21",
+                    "src": "9556:7:26",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -3381,13 +3381,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 3481,
+                  "id": 4313,
                   "mutability": "mutable",
                   "name": "targetCallData",
-                  "nameLocation": "9587:14:21",
+                  "nameLocation": "9587:14:26",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3484,
-                  "src": "9572:29:21",
+                  "scope": 4316,
+                  "src": "9572:29:26",
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
@@ -3395,10 +3395,10 @@
                     "typeString": "bytes"
                   },
                   "typeName": {
-                    "id": 3480,
+                    "id": 4312,
                     "name": "bytes",
                     "nodeType": "ElementaryTypeName",
-                    "src": "9572:5:21",
+                    "src": "9572:5:26",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes_storage_ptr",
                       "typeString": "bytes"
@@ -3407,34 +3407,34 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "9528:74:21"
+              "src": "9528:74:26"
             },
             "returnParameters": {
-              "id": 3483,
+              "id": 4315,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "9611:0:21"
+              "src": "9611:0:26"
             },
-            "scope": 3485,
-            "src": "9503:109:21",
+            "scope": 4317,
+            "src": "9503:109:26",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 3486,
-        "src": "446:9169:21",
+        "scope": 4318,
+        "src": "446:9169:26",
         "usedErrors": [
-          3344,
-          3349,
-          3364,
-          3382,
-          3387,
-          3402
+          4176,
+          4181,
+          4196,
+          4214,
+          4219,
+          4234
         ]
       }
     ],
-    "src": "168:9449:21"
+    "src": "168:9449:26"
   },
   "compiler": {
     "name": "solc",
@@ -3442,7 +3442,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.12",
-  "updatedAt": "2023-06-10T14:14:13.259Z",
+  "updatedAt": "2023-06-10T15:23:30.736Z",
   "devdoc": {
     "errors": {
       "FailedOp(uint256,string)": [

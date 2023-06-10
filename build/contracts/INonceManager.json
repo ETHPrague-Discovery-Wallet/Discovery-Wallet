@@ -53,15 +53,15 @@
     "absolutePath": "project:/contracts/interfaces/INonceManager.sol",
     "exportedSymbols": {
       "INonceManager": [
-        3504
+        4336
       ]
     },
-    "id": 3505,
+    "id": 4337,
     "license": "GPL-3.0",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 3487,
+        "id": 4319,
         "literals": [
           "solidity",
           "^",
@@ -69,7 +69,7 @@
           ".12"
         ],
         "nodeType": "PragmaDirective",
-        "src": "37:24:22"
+        "src": "37:24:27"
       },
       {
         "abstract": false,
@@ -78,42 +78,42 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "fullyImplemented": false,
-        "id": 3504,
+        "id": 4336,
         "linearizedBaseContracts": [
-          3504
+          4336
         ],
         "name": "INonceManager",
-        "nameLocation": "75:13:22",
+        "nameLocation": "75:13:27",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "documentation": {
-              "id": 3488,
+              "id": 4320,
               "nodeType": "StructuredDocumentation",
-              "src": "98:424:22",
+              "src": "98:424:27",
               "text": " Return the next nonce for this sender.\n Within a given key, the nonce values are sequenced (starting with zero, and incremented by one on each userop)\n But UserOp with different keys can come with arbitrary order.\n @param sender the account address\n @param key the high 192 bit of the nonce\n @return nonce a full nonce to pass for next UserOp with this sender."
             },
             "functionSelector": "35567e1a",
-            "id": 3497,
+            "id": 4329,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getNonce",
-            "nameLocation": "537:8:22",
+            "nameLocation": "537:8:27",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 3493,
+              "id": 4325,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3490,
+                  "id": 4322,
                   "mutability": "mutable",
                   "name": "sender",
-                  "nameLocation": "554:6:22",
+                  "nameLocation": "554:6:27",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3497,
-                  "src": "546:14:22",
+                  "scope": 4329,
+                  "src": "546:14:27",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -121,10 +121,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 3489,
+                    "id": 4321,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "546:7:22",
+                    "src": "546:7:27",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -135,13 +135,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 3492,
+                  "id": 4324,
                   "mutability": "mutable",
                   "name": "key",
-                  "nameLocation": "570:3:22",
+                  "nameLocation": "570:3:27",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3497,
-                  "src": "562:11:22",
+                  "scope": 4329,
+                  "src": "562:11:27",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -149,10 +149,10 @@
                     "typeString": "uint192"
                   },
                   "typeName": {
-                    "id": 3491,
+                    "id": 4323,
                     "name": "uint192",
                     "nodeType": "ElementaryTypeName",
-                    "src": "562:7:22",
+                    "src": "562:7:27",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint192",
                       "typeString": "uint192"
@@ -161,21 +161,21 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "545:29:22"
+              "src": "545:29:27"
             },
             "returnParameters": {
-              "id": 3496,
+              "id": 4328,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3495,
+                  "id": 4327,
                   "mutability": "mutable",
                   "name": "nonce",
-                  "nameLocation": "611:5:22",
+                  "nameLocation": "611:5:27",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3497,
-                  "src": "603:13:22",
+                  "scope": 4329,
+                  "src": "603:13:27",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -183,10 +183,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 3494,
+                    "id": 4326,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "603:7:22",
+                    "src": "603:7:27",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -195,42 +195,42 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "602:15:22"
+              "src": "602:15:27"
             },
-            "scope": 3504,
-            "src": "528:90:22",
+            "scope": 4336,
+            "src": "528:90:27",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
             "documentation": {
-              "id": 3498,
+              "id": 4330,
               "nodeType": "StructuredDocumentation",
-              "src": "626:456:22",
+              "src": "626:456:27",
               "text": " Manually increment the nonce of the sender.\n This method is exposed just for completeness..\n Account does NOT need to call it, neither during validation, nor elsewhere,\n as the EntryPoint will update the nonce regardless.\n Possible use-case is call it with various keys to \"initialize\" their nonces to one, so that future\n UserOperations will not pay extra for the first transaction with a given key."
             },
             "functionSelector": "0bd28e3b",
-            "id": 3503,
+            "id": 4335,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "incrementNonce",
-            "nameLocation": "1097:14:22",
+            "nameLocation": "1097:14:27",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 3501,
+              "id": 4333,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3500,
+                  "id": 4332,
                   "mutability": "mutable",
                   "name": "key",
-                  "nameLocation": "1120:3:22",
+                  "nameLocation": "1120:3:27",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3503,
-                  "src": "1112:11:22",
+                  "scope": 4335,
+                  "src": "1112:11:27",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -238,10 +238,10 @@
                     "typeString": "uint192"
                   },
                   "typeName": {
-                    "id": 3499,
+                    "id": 4331,
                     "name": "uint192",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1112:7:22",
+                    "src": "1112:7:27",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint192",
                       "typeString": "uint192"
@@ -250,27 +250,27 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1111:13:22"
+              "src": "1111:13:27"
             },
             "returnParameters": {
-              "id": 3502,
+              "id": 4334,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1133:0:22"
+              "src": "1133:0:27"
             },
-            "scope": 3504,
-            "src": "1088:46:22",
+            "scope": 4336,
+            "src": "1088:46:27",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 3505,
-        "src": "65:1072:22",
+        "scope": 4337,
+        "src": "65:1072:27",
         "usedErrors": []
       }
     ],
-    "src": "37:1100:22"
+    "src": "37:1100:27"
   },
   "compiler": {
     "name": "solc",
@@ -278,7 +278,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.12",
-  "updatedAt": "2023-06-10T14:14:13.263Z",
+  "updatedAt": "2023-06-10T15:23:30.739Z",
   "devdoc": {
     "kind": "dev",
     "methods": {

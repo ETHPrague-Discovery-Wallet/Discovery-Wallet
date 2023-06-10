@@ -243,24 +243,24 @@
     "absolutePath": "project:/contracts/interfaces/IAggregator.sol",
     "exportedSymbols": {
       "IAggregator": [
-        3281
+        4113
       ],
       "UserOperation": [
-        3636
+        4468
       ],
       "UserOperationLib": [
-        3806
+        4638
       ],
       "calldataKeccak": [
-        3230
+        4062
       ]
     },
-    "id": 3282,
+    "id": 4114,
     "license": "GPL-3.0",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 3249,
+        "id": 4081,
         "literals": [
           "solidity",
           "^",
@@ -268,17 +268,17 @@
           ".12"
         ],
         "nodeType": "PragmaDirective",
-        "src": "37:24:20"
+        "src": "37:24:25"
       },
       {
         "absolutePath": "project:/contracts/interfaces/UserOperation.sol",
         "file": "./UserOperation.sol",
-        "id": 3250,
+        "id": 4082,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 3282,
-        "sourceUnit": 3807,
-        "src": "65:29:20",
+        "scope": 4114,
+        "sourceUnit": 4639,
+        "src": "65:29:25",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -289,77 +289,77 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "documentation": {
-          "id": 3251,
+          "id": 4083,
           "nodeType": "StructuredDocumentation",
-          "src": "98:45:20",
+          "src": "98:45:25",
           "text": " Aggregated Signatures validator."
         },
         "fullyImplemented": false,
-        "id": 3281,
+        "id": 4113,
         "linearizedBaseContracts": [
-          3281
+          4113
         ],
         "name": "IAggregator",
-        "nameLocation": "155:11:20",
+        "nameLocation": "155:11:25",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "documentation": {
-              "id": 3252,
+              "id": 4084,
               "nodeType": "StructuredDocumentation",
-              "src": "176:139:20",
+              "src": "176:139:25",
               "text": " validate aggregated signature.\n revert if the aggregated signature does not match the given list of operations."
             },
             "functionSelector": "e3563a4f",
-            "id": 3261,
+            "id": 4093,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "validateSignatures",
-            "nameLocation": "330:18:20",
+            "nameLocation": "330:18:25",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 3259,
+              "id": 4091,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3256,
+                  "id": 4088,
                   "mutability": "mutable",
                   "name": "userOps",
-                  "nameLocation": "374:7:20",
+                  "nameLocation": "374:7:25",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3261,
-                  "src": "349:32:20",
+                  "scope": 4093,
+                  "src": "349:32:25",
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_array$_t_struct$_UserOperation_$3636_calldata_ptr_$dyn_calldata_ptr",
+                    "typeIdentifier": "t_array$_t_struct$_UserOperation_$4468_calldata_ptr_$dyn_calldata_ptr",
                     "typeString": "struct UserOperation[]"
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 3254,
+                      "id": 4086,
                       "nodeType": "UserDefinedTypeName",
                       "pathNode": {
-                        "id": 3253,
+                        "id": 4085,
                         "name": "UserOperation",
                         "nodeType": "IdentifierPath",
-                        "referencedDeclaration": 3636,
-                        "src": "349:13:20"
+                        "referencedDeclaration": 4468,
+                        "src": "349:13:25"
                       },
-                      "referencedDeclaration": 3636,
-                      "src": "349:13:20",
+                      "referencedDeclaration": 4468,
+                      "src": "349:13:25",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_UserOperation_$3636_storage_ptr",
+                        "typeIdentifier": "t_struct$_UserOperation_$4468_storage_ptr",
                         "typeString": "struct UserOperation"
                       }
                     },
-                    "id": 3255,
+                    "id": 4087,
                     "nodeType": "ArrayTypeName",
-                    "src": "349:15:20",
+                    "src": "349:15:25",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_array$_t_struct$_UserOperation_$3636_storage_$dyn_storage_ptr",
+                      "typeIdentifier": "t_array$_t_struct$_UserOperation_$4468_storage_$dyn_storage_ptr",
                       "typeString": "struct UserOperation[]"
                     }
                   },
@@ -367,13 +367,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 3258,
+                  "id": 4090,
                   "mutability": "mutable",
                   "name": "signature",
-                  "nameLocation": "398:9:20",
+                  "nameLocation": "398:9:25",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3261,
-                  "src": "383:24:20",
+                  "scope": 4093,
+                  "src": "383:24:25",
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
@@ -381,10 +381,10 @@
                     "typeString": "bytes"
                   },
                   "typeName": {
-                    "id": 3257,
+                    "id": 4089,
                     "name": "bytes",
                     "nodeType": "ElementaryTypeName",
-                    "src": "383:5:20",
+                    "src": "383:5:25",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes_storage_ptr",
                       "typeString": "bytes"
@@ -393,89 +393,89 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "348:60:20"
+              "src": "348:60:25"
             },
             "returnParameters": {
-              "id": 3260,
+              "id": 4092,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "422:0:20"
+              "src": "422:0:25"
             },
-            "scope": 3281,
-            "src": "321:102:20",
+            "scope": 4113,
+            "src": "321:102:25",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
             "documentation": {
-              "id": 3262,
+              "id": 4094,
               "nodeType": "StructuredDocumentation",
-              "src": "431:583:20",
+              "src": "431:583:25",
               "text": " validate signature of a single userOp\n This method is should be called by bundler after EntryPoint.simulateValidation() returns (reverts) with ValidationResultWithAggregation\n First it validates the signature over the userOp. Then it returns data to be used when creating the handleOps.\n @param userOp the userOperation received from the user.\n @return sigForUserOp the value to put into the signature field of the userOp when calling handleOps.\n    (usually empty, unless account and aggregator support some kind of \"multisig\""
             },
             "functionSelector": "64c530cd",
-            "id": 3270,
+            "id": 4102,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "validateUserOpSignature",
-            "nameLocation": "1029:23:20",
+            "nameLocation": "1029:23:25",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 3266,
+              "id": 4098,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3265,
+                  "id": 4097,
                   "mutability": "mutable",
                   "name": "userOp",
-                  "nameLocation": "1076:6:20",
+                  "nameLocation": "1076:6:25",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3270,
-                  "src": "1053:29:20",
+                  "scope": 4102,
+                  "src": "1053:29:25",
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_UserOperation_$3636_calldata_ptr",
+                    "typeIdentifier": "t_struct$_UserOperation_$4468_calldata_ptr",
                     "typeString": "struct UserOperation"
                   },
                   "typeName": {
-                    "id": 3264,
+                    "id": 4096,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 3263,
+                      "id": 4095,
                       "name": "UserOperation",
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 3636,
-                      "src": "1053:13:20"
+                      "referencedDeclaration": 4468,
+                      "src": "1053:13:25"
                     },
-                    "referencedDeclaration": 3636,
-                    "src": "1053:13:20",
+                    "referencedDeclaration": 4468,
+                    "src": "1053:13:25",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_UserOperation_$3636_storage_ptr",
+                      "typeIdentifier": "t_struct$_UserOperation_$4468_storage_ptr",
                       "typeString": "struct UserOperation"
                     }
                   },
                   "visibility": "internal"
                 }
               ],
-              "src": "1052:31:20"
+              "src": "1052:31:25"
             },
             "returnParameters": {
-              "id": 3269,
+              "id": 4101,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3268,
+                  "id": 4100,
                   "mutability": "mutable",
                   "name": "sigForUserOp",
-                  "nameLocation": "1125:12:20",
+                  "nameLocation": "1125:12:25",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3270,
-                  "src": "1112:25:20",
+                  "scope": 4102,
+                  "src": "1112:25:25",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -483,10 +483,10 @@
                     "typeString": "bytes"
                   },
                   "typeName": {
-                    "id": 3267,
+                    "id": 4099,
                     "name": "bytes",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1112:5:20",
+                    "src": "1112:5:25",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes_storage_ptr",
                       "typeString": "bytes"
@@ -495,92 +495,92 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1111:27:20"
+              "src": "1111:27:25"
             },
-            "scope": 3281,
-            "src": "1020:119:20",
+            "scope": 4113,
+            "src": "1020:119:25",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
             "documentation": {
-              "id": 3271,
+              "id": 4103,
               "nodeType": "StructuredDocumentation",
-              "src": "1147:374:20",
+              "src": "1147:374:25",
               "text": " aggregate multiple signatures into a single value.\n This method is called off-chain to calculate the signature to pass with handleOps()\n bundler MAY use optimized custom code perform this aggregation\n @param userOps array of UserOperations to collect the signatures from.\n @return aggregatedSignature the aggregated signature"
             },
             "functionSelector": "275e2d79",
-            "id": 3280,
+            "id": 4112,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "aggregateSignatures",
-            "nameLocation": "1536:19:20",
+            "nameLocation": "1536:19:25",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 3276,
+              "id": 4108,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3275,
+                  "id": 4107,
                   "mutability": "mutable",
                   "name": "userOps",
-                  "nameLocation": "1581:7:20",
+                  "nameLocation": "1581:7:25",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3280,
-                  "src": "1556:32:20",
+                  "scope": 4112,
+                  "src": "1556:32:25",
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_array$_t_struct$_UserOperation_$3636_calldata_ptr_$dyn_calldata_ptr",
+                    "typeIdentifier": "t_array$_t_struct$_UserOperation_$4468_calldata_ptr_$dyn_calldata_ptr",
                     "typeString": "struct UserOperation[]"
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 3273,
+                      "id": 4105,
                       "nodeType": "UserDefinedTypeName",
                       "pathNode": {
-                        "id": 3272,
+                        "id": 4104,
                         "name": "UserOperation",
                         "nodeType": "IdentifierPath",
-                        "referencedDeclaration": 3636,
-                        "src": "1556:13:20"
+                        "referencedDeclaration": 4468,
+                        "src": "1556:13:25"
                       },
-                      "referencedDeclaration": 3636,
-                      "src": "1556:13:20",
+                      "referencedDeclaration": 4468,
+                      "src": "1556:13:25",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_UserOperation_$3636_storage_ptr",
+                        "typeIdentifier": "t_struct$_UserOperation_$4468_storage_ptr",
                         "typeString": "struct UserOperation"
                       }
                     },
-                    "id": 3274,
+                    "id": 4106,
                     "nodeType": "ArrayTypeName",
-                    "src": "1556:15:20",
+                    "src": "1556:15:25",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_array$_t_struct$_UserOperation_$3636_storage_$dyn_storage_ptr",
+                      "typeIdentifier": "t_array$_t_struct$_UserOperation_$4468_storage_$dyn_storage_ptr",
                       "typeString": "struct UserOperation[]"
                     }
                   },
                   "visibility": "internal"
                 }
               ],
-              "src": "1555:34:20"
+              "src": "1555:34:25"
             },
             "returnParameters": {
-              "id": 3279,
+              "id": 4111,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3278,
+                  "id": 4110,
                   "mutability": "mutable",
                   "name": "aggregatedSignature",
-                  "nameLocation": "1626:19:20",
+                  "nameLocation": "1626:19:25",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3280,
-                  "src": "1613:32:20",
+                  "scope": 4112,
+                  "src": "1613:32:25",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -588,10 +588,10 @@
                     "typeString": "bytes"
                   },
                   "typeName": {
-                    "id": 3277,
+                    "id": 4109,
                     "name": "bytes",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1613:5:20",
+                    "src": "1613:5:25",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes_storage_ptr",
                       "typeString": "bytes"
@@ -600,21 +600,21 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1612:34:20"
+              "src": "1612:34:25"
             },
-            "scope": 3281,
-            "src": "1527:120:20",
+            "scope": 4113,
+            "src": "1527:120:25",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 3282,
-        "src": "145:1505:20",
+        "scope": 4114,
+        "src": "145:1505:25",
         "usedErrors": []
       }
     ],
-    "src": "37:1613:20"
+    "src": "37:1613:25"
   },
   "compiler": {
     "name": "solc",
@@ -622,7 +622,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.12",
-  "updatedAt": "2023-06-10T14:14:13.258Z",
+  "updatedAt": "2023-06-10T15:23:30.734Z",
   "devdoc": {
     "kind": "dev",
     "methods": {

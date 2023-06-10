@@ -258,15 +258,15 @@
     "absolutePath": "project:/contracts/interfaces/IStakeManager.sol",
     "exportedSymbols": {
       "IStakeManager": [
-        3609
+        4441
       ]
     },
-    "id": 3610,
+    "id": 4442,
     "license": "GPL-3.0-only",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 3506,
+        "id": 4338,
         "literals": [
           "solidity",
           "^",
@@ -274,7 +274,7 @@
           ".12"
         ],
         "nodeType": "PragmaDirective",
-        "src": "42:24:23"
+        "src": "42:24:28"
       },
       {
         "abstract": false,
@@ -283,40 +283,40 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "documentation": {
-          "id": 3507,
+          "id": 4339,
           "nodeType": "StructuredDocumentation",
-          "src": "70:215:23",
+          "src": "70:215:28",
           "text": " manage deposits and stakes.\n deposit is just a balance used to pay for UserOperations (either by a paymaster or an account)\n stake is value locked for at least \"unstakeDelay\" by the staked entity."
         },
         "fullyImplemented": false,
-        "id": 3609,
+        "id": 4441,
         "linearizedBaseContracts": [
-          3609
+          4441
         ],
         "name": "IStakeManager",
-        "nameLocation": "297:13:23",
+        "nameLocation": "297:13:28",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "anonymous": false,
-            "id": 3513,
+            "id": 4345,
             "name": "Deposited",
-            "nameLocation": "326:9:23",
+            "nameLocation": "326:9:28",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 3512,
+              "id": 4344,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3509,
+                  "id": 4341,
                   "indexed": true,
                   "mutability": "mutable",
                   "name": "account",
-                  "nameLocation": "362:7:23",
+                  "nameLocation": "362:7:28",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3513,
-                  "src": "346:23:23",
+                  "scope": 4345,
+                  "src": "346:23:28",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -324,10 +324,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 3508,
+                    "id": 4340,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "346:7:23",
+                    "src": "346:7:28",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -338,14 +338,14 @@
                 },
                 {
                   "constant": false,
-                  "id": 3511,
+                  "id": 4343,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "totalDeposit",
-                  "nameLocation": "388:12:23",
+                  "nameLocation": "388:12:28",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3513,
-                  "src": "380:20:23",
+                  "scope": 4345,
+                  "src": "380:20:28",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -353,10 +353,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 3510,
+                    "id": 4342,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "380:7:23",
+                    "src": "380:7:28",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -365,30 +365,30 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "335:72:23"
+              "src": "335:72:28"
             },
-            "src": "320:88:23"
+            "src": "320:88:28"
           },
           {
             "anonymous": false,
-            "id": 3521,
+            "id": 4353,
             "name": "Withdrawn",
-            "nameLocation": "422:9:23",
+            "nameLocation": "422:9:28",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 3520,
+              "id": 4352,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3515,
+                  "id": 4347,
                   "indexed": true,
                   "mutability": "mutable",
                   "name": "account",
-                  "nameLocation": "458:7:23",
+                  "nameLocation": "458:7:28",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3521,
-                  "src": "442:23:23",
+                  "scope": 4353,
+                  "src": "442:23:28",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -396,10 +396,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 3514,
+                    "id": 4346,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "442:7:23",
+                    "src": "442:7:28",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -410,14 +410,14 @@
                 },
                 {
                   "constant": false,
-                  "id": 3517,
+                  "id": 4349,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "withdrawAddress",
-                  "nameLocation": "484:15:23",
+                  "nameLocation": "484:15:28",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3521,
-                  "src": "476:23:23",
+                  "scope": 4353,
+                  "src": "476:23:28",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -425,10 +425,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 3516,
+                    "id": 4348,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "476:7:23",
+                    "src": "476:7:28",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -439,14 +439,14 @@
                 },
                 {
                   "constant": false,
-                  "id": 3519,
+                  "id": 4351,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "amount",
-                  "nameLocation": "518:6:23",
+                  "nameLocation": "518:6:28",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3521,
-                  "src": "510:14:23",
+                  "scope": 4353,
+                  "src": "510:14:28",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -454,10 +454,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 3518,
+                    "id": 4350,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "510:7:23",
+                    "src": "510:7:28",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -466,36 +466,36 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "431:100:23"
+              "src": "431:100:28"
             },
-            "src": "416:116:23"
+            "src": "416:116:28"
           },
           {
             "anonymous": false,
             "documentation": {
-              "id": 3522,
+              "id": 4354,
               "nodeType": "StructuredDocumentation",
-              "src": "540:52:23",
+              "src": "540:52:28",
               "text": "Emitted when stake or unstake delay are modified"
             },
-            "id": 3530,
+            "id": 4362,
             "name": "StakeLocked",
-            "nameLocation": "604:11:23",
+            "nameLocation": "604:11:28",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 3529,
+              "id": 4361,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3524,
+                  "id": 4356,
                   "indexed": true,
                   "mutability": "mutable",
                   "name": "account",
-                  "nameLocation": "642:7:23",
+                  "nameLocation": "642:7:28",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3530,
-                  "src": "626:23:23",
+                  "scope": 4362,
+                  "src": "626:23:28",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -503,10 +503,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 3523,
+                    "id": 4355,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "626:7:23",
+                    "src": "626:7:28",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -517,14 +517,14 @@
                 },
                 {
                   "constant": false,
-                  "id": 3526,
+                  "id": 4358,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "totalStaked",
-                  "nameLocation": "668:11:23",
+                  "nameLocation": "668:11:28",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3530,
-                  "src": "660:19:23",
+                  "scope": 4362,
+                  "src": "660:19:28",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -532,10 +532,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 3525,
+                    "id": 4357,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "660:7:23",
+                    "src": "660:7:28",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -545,14 +545,14 @@
                 },
                 {
                   "constant": false,
-                  "id": 3528,
+                  "id": 4360,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "unstakeDelaySec",
-                  "nameLocation": "698:15:23",
+                  "nameLocation": "698:15:28",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3530,
-                  "src": "690:23:23",
+                  "scope": 4362,
+                  "src": "690:23:28",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -560,10 +560,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 3527,
+                    "id": 4359,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "690:7:23",
+                    "src": "690:7:28",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -572,36 +572,36 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "615:105:23"
+              "src": "615:105:28"
             },
-            "src": "598:123:23"
+            "src": "598:123:28"
           },
           {
             "anonymous": false,
             "documentation": {
-              "id": 3531,
+              "id": 4363,
               "nodeType": "StructuredDocumentation",
-              "src": "729:52:23",
+              "src": "729:52:28",
               "text": "Emitted once a stake is scheduled for withdrawal"
             },
-            "id": 3537,
+            "id": 4369,
             "name": "StakeUnlocked",
-            "nameLocation": "793:13:23",
+            "nameLocation": "793:13:28",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 3536,
+              "id": 4368,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3533,
+                  "id": 4365,
                   "indexed": true,
                   "mutability": "mutable",
                   "name": "account",
-                  "nameLocation": "833:7:23",
+                  "nameLocation": "833:7:28",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3537,
-                  "src": "817:23:23",
+                  "scope": 4369,
+                  "src": "817:23:28",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -609,10 +609,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 3532,
+                    "id": 4364,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "817:7:23",
+                    "src": "817:7:28",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -623,14 +623,14 @@
                 },
                 {
                   "constant": false,
-                  "id": 3535,
+                  "id": 4367,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "withdrawTime",
-                  "nameLocation": "859:12:23",
+                  "nameLocation": "859:12:28",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3537,
-                  "src": "851:20:23",
+                  "scope": 4369,
+                  "src": "851:20:28",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -638,10 +638,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 3534,
+                    "id": 4366,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "851:7:23",
+                    "src": "851:7:28",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -650,30 +650,30 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "806:72:23"
+              "src": "806:72:28"
             },
-            "src": "787:92:23"
+            "src": "787:92:28"
           },
           {
             "anonymous": false,
-            "id": 3545,
+            "id": 4377,
             "name": "StakeWithdrawn",
-            "nameLocation": "893:14:23",
+            "nameLocation": "893:14:28",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 3544,
+              "id": 4376,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3539,
+                  "id": 4371,
                   "indexed": true,
                   "mutability": "mutable",
                   "name": "account",
-                  "nameLocation": "934:7:23",
+                  "nameLocation": "934:7:28",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3545,
-                  "src": "918:23:23",
+                  "scope": 4377,
+                  "src": "918:23:28",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -681,10 +681,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 3538,
+                    "id": 4370,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "918:7:23",
+                    "src": "918:7:28",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -695,14 +695,14 @@
                 },
                 {
                   "constant": false,
-                  "id": 3541,
+                  "id": 4373,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "withdrawAddress",
-                  "nameLocation": "960:15:23",
+                  "nameLocation": "960:15:28",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3545,
-                  "src": "952:23:23",
+                  "scope": 4377,
+                  "src": "952:23:28",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -710,10 +710,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 3540,
+                    "id": 4372,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "952:7:23",
+                    "src": "952:7:28",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -724,14 +724,14 @@
                 },
                 {
                   "constant": false,
-                  "id": 3543,
+                  "id": 4375,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "amount",
-                  "nameLocation": "994:6:23",
+                  "nameLocation": "994:6:28",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3545,
-                  "src": "986:14:23",
+                  "scope": 4377,
+                  "src": "986:14:28",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -739,10 +739,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 3542,
+                    "id": 4374,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "986:7:23",
+                    "src": "986:7:28",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -751,23 +751,23 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "907:100:23"
+              "src": "907:100:28"
             },
-            "src": "887:121:23"
+            "src": "887:121:28"
           },
           {
             "canonicalName": "IStakeManager.DepositInfo",
-            "id": 3556,
+            "id": 4388,
             "members": [
               {
                 "constant": false,
-                "id": 3547,
+                "id": 4379,
                 "mutability": "mutable",
                 "name": "deposit",
-                "nameLocation": "1703:7:23",
+                "nameLocation": "1703:7:28",
                 "nodeType": "VariableDeclaration",
-                "scope": 3556,
-                "src": "1695:15:23",
+                "scope": 4388,
+                "src": "1695:15:28",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -775,10 +775,10 @@
                   "typeString": "uint112"
                 },
                 "typeName": {
-                  "id": 3546,
+                  "id": 4378,
                   "name": "uint112",
                   "nodeType": "ElementaryTypeName",
-                  "src": "1695:7:23",
+                  "src": "1695:7:28",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint112",
                     "typeString": "uint112"
@@ -788,13 +788,13 @@
               },
               {
                 "constant": false,
-                "id": 3549,
+                "id": 4381,
                 "mutability": "mutable",
                 "name": "staked",
-                "nameLocation": "1726:6:23",
+                "nameLocation": "1726:6:28",
                 "nodeType": "VariableDeclaration",
-                "scope": 3556,
-                "src": "1721:11:23",
+                "scope": 4388,
+                "src": "1721:11:28",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -802,10 +802,10 @@
                   "typeString": "bool"
                 },
                 "typeName": {
-                  "id": 3548,
+                  "id": 4380,
                   "name": "bool",
                   "nodeType": "ElementaryTypeName",
-                  "src": "1721:4:23",
+                  "src": "1721:4:28",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bool",
                     "typeString": "bool"
@@ -815,13 +815,13 @@
               },
               {
                 "constant": false,
-                "id": 3551,
+                "id": 4383,
                 "mutability": "mutable",
                 "name": "stake",
-                "nameLocation": "1751:5:23",
+                "nameLocation": "1751:5:28",
                 "nodeType": "VariableDeclaration",
-                "scope": 3556,
-                "src": "1743:13:23",
+                "scope": 4388,
+                "src": "1743:13:28",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -829,10 +829,10 @@
                   "typeString": "uint112"
                 },
                 "typeName": {
-                  "id": 3550,
+                  "id": 4382,
                   "name": "uint112",
                   "nodeType": "ElementaryTypeName",
-                  "src": "1743:7:23",
+                  "src": "1743:7:28",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint112",
                     "typeString": "uint112"
@@ -842,13 +842,13 @@
               },
               {
                 "constant": false,
-                "id": 3553,
+                "id": 4385,
                 "mutability": "mutable",
                 "name": "unstakeDelaySec",
-                "nameLocation": "1774:15:23",
+                "nameLocation": "1774:15:28",
                 "nodeType": "VariableDeclaration",
-                "scope": 3556,
-                "src": "1767:22:23",
+                "scope": 4388,
+                "src": "1767:22:28",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -856,10 +856,10 @@
                   "typeString": "uint32"
                 },
                 "typeName": {
-                  "id": 3552,
+                  "id": 4384,
                   "name": "uint32",
                   "nodeType": "ElementaryTypeName",
-                  "src": "1767:6:23",
+                  "src": "1767:6:28",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint32",
                     "typeString": "uint32"
@@ -869,13 +869,13 @@
               },
               {
                 "constant": false,
-                "id": 3555,
+                "id": 4387,
                 "mutability": "mutable",
                 "name": "withdrawTime",
-                "nameLocation": "1807:12:23",
+                "nameLocation": "1807:12:28",
                 "nodeType": "VariableDeclaration",
-                "scope": 3556,
-                "src": "1800:19:23",
+                "scope": 4388,
+                "src": "1800:19:28",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -883,10 +883,10 @@
                   "typeString": "uint48"
                 },
                 "typeName": {
-                  "id": 3554,
+                  "id": 4386,
                   "name": "uint48",
                   "nodeType": "ElementaryTypeName",
-                  "src": "1800:6:23",
+                  "src": "1800:6:28",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint48",
                     "typeString": "uint48"
@@ -896,25 +896,25 @@
               }
             ],
             "name": "DepositInfo",
-            "nameLocation": "1672:11:23",
+            "nameLocation": "1672:11:28",
             "nodeType": "StructDefinition",
-            "scope": 3609,
-            "src": "1665:162:23",
+            "scope": 4441,
+            "src": "1665:162:28",
             "visibility": "public"
           },
           {
             "canonicalName": "IStakeManager.StakeInfo",
-            "id": 3561,
+            "id": 4393,
             "members": [
               {
                 "constant": false,
-                "id": 3558,
+                "id": 4390,
                 "mutability": "mutable",
                 "name": "stake",
-                "nameLocation": "1933:5:23",
+                "nameLocation": "1933:5:28",
                 "nodeType": "VariableDeclaration",
-                "scope": 3561,
-                "src": "1925:13:23",
+                "scope": 4393,
+                "src": "1925:13:28",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -922,10 +922,10 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 3557,
+                  "id": 4389,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
-                  "src": "1925:7:23",
+                  "src": "1925:7:28",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -935,13 +935,13 @@
               },
               {
                 "constant": false,
-                "id": 3560,
+                "id": 4392,
                 "mutability": "mutable",
                 "name": "unstakeDelaySec",
-                "nameLocation": "1957:15:23",
+                "nameLocation": "1957:15:28",
                 "nodeType": "VariableDeclaration",
-                "scope": 3561,
-                "src": "1949:23:23",
+                "scope": 4393,
+                "src": "1949:23:28",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -949,10 +949,10 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 3559,
+                  "id": 4391,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
-                  "src": "1949:7:23",
+                  "src": "1949:7:28",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -962,40 +962,40 @@
               }
             ],
             "name": "StakeInfo",
-            "nameLocation": "1904:9:23",
+            "nameLocation": "1904:9:28",
             "nodeType": "StructDefinition",
-            "scope": 3609,
-            "src": "1897:83:23",
+            "scope": 4441,
+            "src": "1897:83:28",
             "visibility": "public"
           },
           {
             "documentation": {
-              "id": 3562,
+              "id": 4394,
               "nodeType": "StructuredDocumentation",
-              "src": "1988:60:23",
+              "src": "1988:60:28",
               "text": "@return info - full deposit information of given account"
             },
             "functionSelector": "5287ce12",
-            "id": 3570,
+            "id": 4402,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getDepositInfo",
-            "nameLocation": "2063:14:23",
+            "nameLocation": "2063:14:28",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 3565,
+              "id": 4397,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3564,
+                  "id": 4396,
                   "mutability": "mutable",
                   "name": "account",
-                  "nameLocation": "2086:7:23",
+                  "nameLocation": "2086:7:28",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3570,
-                  "src": "2078:15:23",
+                  "scope": 4402,
+                  "src": "2078:15:28",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1003,10 +1003,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 3563,
+                    "id": 4395,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2078:7:23",
+                    "src": "2078:7:28",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1016,83 +1016,83 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "2077:17:23"
+              "src": "2077:17:28"
             },
             "returnParameters": {
-              "id": 3569,
+              "id": 4401,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3568,
+                  "id": 4400,
                   "mutability": "mutable",
                   "name": "info",
-                  "nameLocation": "2137:4:23",
+                  "nameLocation": "2137:4:28",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3570,
-                  "src": "2118:23:23",
+                  "scope": 4402,
+                  "src": "2118:23:28",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_DepositInfo_$3556_memory_ptr",
+                    "typeIdentifier": "t_struct$_DepositInfo_$4388_memory_ptr",
                     "typeString": "struct IStakeManager.DepositInfo"
                   },
                   "typeName": {
-                    "id": 3567,
+                    "id": 4399,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 3566,
+                      "id": 4398,
                       "name": "DepositInfo",
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 3556,
-                      "src": "2118:11:23"
+                      "referencedDeclaration": 4388,
+                      "src": "2118:11:28"
                     },
-                    "referencedDeclaration": 3556,
-                    "src": "2118:11:23",
+                    "referencedDeclaration": 4388,
+                    "src": "2118:11:28",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_DepositInfo_$3556_storage_ptr",
+                      "typeIdentifier": "t_struct$_DepositInfo_$4388_storage_ptr",
                       "typeString": "struct IStakeManager.DepositInfo"
                     }
                   },
                   "visibility": "internal"
                 }
               ],
-              "src": "2117:25:23"
+              "src": "2117:25:28"
             },
-            "scope": 3609,
-            "src": "2054:89:23",
+            "scope": 4441,
+            "src": "2054:89:28",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
             "documentation": {
-              "id": 3571,
+              "id": 4403,
               "nodeType": "StructuredDocumentation",
-              "src": "2151:56:23",
+              "src": "2151:56:28",
               "text": "@return the deposit (for gas payment) of the account"
             },
             "functionSelector": "70a08231",
-            "id": 3578,
+            "id": 4410,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "balanceOf",
-            "nameLocation": "2222:9:23",
+            "nameLocation": "2222:9:28",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 3574,
+              "id": 4406,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3573,
+                  "id": 4405,
                   "mutability": "mutable",
                   "name": "account",
-                  "nameLocation": "2240:7:23",
+                  "nameLocation": "2240:7:28",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3578,
-                  "src": "2232:15:23",
+                  "scope": 4410,
+                  "src": "2232:15:28",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1100,10 +1100,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 3572,
+                    "id": 4404,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2232:7:23",
+                    "src": "2232:7:28",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1113,21 +1113,21 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "2231:17:23"
+              "src": "2231:17:28"
             },
             "returnParameters": {
-              "id": 3577,
+              "id": 4409,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3576,
+                  "id": 4408,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3578,
-                  "src": "2272:7:23",
+                  "scope": 4410,
+                  "src": "2272:7:28",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1135,10 +1135,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 3575,
+                    "id": 4407,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2272:7:23",
+                    "src": "2272:7:28",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1147,42 +1147,42 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "2271:9:23"
+              "src": "2271:9:28"
             },
-            "scope": 3609,
-            "src": "2213:68:23",
+            "scope": 4441,
+            "src": "2213:68:28",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
             "documentation": {
-              "id": 3579,
+              "id": 4411,
               "nodeType": "StructuredDocumentation",
-              "src": "2289:60:23",
+              "src": "2289:60:28",
               "text": " add to the deposit of the given account"
             },
             "functionSelector": "b760faf9",
-            "id": 3584,
+            "id": 4416,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "depositTo",
-            "nameLocation": "2364:9:23",
+            "nameLocation": "2364:9:28",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 3582,
+              "id": 4414,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3581,
+                  "id": 4413,
                   "mutability": "mutable",
                   "name": "account",
-                  "nameLocation": "2382:7:23",
+                  "nameLocation": "2382:7:28",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3584,
-                  "src": "2374:15:23",
+                  "scope": 4416,
+                  "src": "2374:15:28",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1190,10 +1190,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 3580,
+                    "id": 4412,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2374:7:23",
+                    "src": "2374:7:28",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1203,48 +1203,48 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "2373:17:23"
+              "src": "2373:17:28"
             },
             "returnParameters": {
-              "id": 3583,
+              "id": 4415,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "2407:0:23"
+              "src": "2407:0:28"
             },
-            "scope": 3609,
-            "src": "2355:53:23",
+            "scope": 4441,
+            "src": "2355:53:28",
             "stateMutability": "payable",
             "virtual": false,
             "visibility": "external"
           },
           {
             "documentation": {
-              "id": 3585,
+              "id": 4417,
               "nodeType": "StructuredDocumentation",
-              "src": "2416:205:23",
+              "src": "2416:205:28",
               "text": " add to the account's stake - amount and delay\n any pending unstake is first cancelled.\n @param _unstakeDelaySec the new lock duration before the deposit can be withdrawn."
             },
             "functionSelector": "0396cb60",
-            "id": 3590,
+            "id": 4422,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "addStake",
-            "nameLocation": "2636:8:23",
+            "nameLocation": "2636:8:28",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 3588,
+              "id": 4420,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3587,
+                  "id": 4419,
                   "mutability": "mutable",
                   "name": "_unstakeDelaySec",
-                  "nameLocation": "2652:16:23",
+                  "nameLocation": "2652:16:28",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3590,
-                  "src": "2645:23:23",
+                  "scope": 4422,
+                  "src": "2645:23:28",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1252,10 +1252,10 @@
                     "typeString": "uint32"
                   },
                   "typeName": {
-                    "id": 3586,
+                    "id": 4418,
                     "name": "uint32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2645:6:23",
+                    "src": "2645:6:28",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint32",
                       "typeString": "uint32"
@@ -1264,81 +1264,81 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "2644:25:23"
+              "src": "2644:25:28"
             },
             "returnParameters": {
-              "id": 3589,
+              "id": 4421,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "2686:0:23"
+              "src": "2686:0:28"
             },
-            "scope": 3609,
-            "src": "2627:60:23",
+            "scope": 4441,
+            "src": "2627:60:28",
             "stateMutability": "payable",
             "virtual": false,
             "visibility": "external"
           },
           {
             "documentation": {
-              "id": 3591,
+              "id": 4423,
               "nodeType": "StructuredDocumentation",
-              "src": "2695:131:23",
+              "src": "2695:131:28",
               "text": " attempt to unlock the stake.\n the value can be withdrawn (using withdrawStake) after the unstake delay."
             },
             "functionSelector": "bb9fe6bf",
-            "id": 3594,
+            "id": 4426,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "unlockStake",
-            "nameLocation": "2841:11:23",
+            "nameLocation": "2841:11:28",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 3592,
+              "id": 4424,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "2852:2:23"
+              "src": "2852:2:28"
             },
             "returnParameters": {
-              "id": 3593,
+              "id": 4425,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "2863:0:23"
+              "src": "2863:0:28"
             },
-            "scope": 3609,
-            "src": "2832:32:23",
+            "scope": 4441,
+            "src": "2832:32:28",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
             "documentation": {
-              "id": 3595,
+              "id": 4427,
               "nodeType": "StructuredDocumentation",
-              "src": "2872:198:23",
+              "src": "2872:198:28",
               "text": " withdraw from the (unlocked) stake.\n must first call unlockStake and wait for the unstakeDelay to pass\n @param withdrawAddress the address to send withdrawn value."
             },
             "functionSelector": "c23a5cea",
-            "id": 3600,
+            "id": 4432,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "withdrawStake",
-            "nameLocation": "3085:13:23",
+            "nameLocation": "3085:13:28",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 3598,
+              "id": 4430,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3597,
+                  "id": 4429,
                   "mutability": "mutable",
                   "name": "withdrawAddress",
-                  "nameLocation": "3115:15:23",
+                  "nameLocation": "3115:15:28",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3600,
-                  "src": "3099:31:23",
+                  "scope": 4432,
+                  "src": "3099:31:28",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1346,10 +1346,10 @@
                     "typeString": "address payable"
                   },
                   "typeName": {
-                    "id": 3596,
+                    "id": 4428,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "3099:15:23",
+                    "src": "3099:15:28",
                     "stateMutability": "payable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address_payable",
@@ -1359,48 +1359,48 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "3098:33:23"
+              "src": "3098:33:28"
             },
             "returnParameters": {
-              "id": 3599,
+              "id": 4431,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "3140:0:23"
+              "src": "3140:0:28"
             },
-            "scope": 3609,
-            "src": "3076:65:23",
+            "scope": 4441,
+            "src": "3076:65:28",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
             "documentation": {
-              "id": 3601,
+              "id": 4433,
               "nodeType": "StructuredDocumentation",
-              "src": "3149:169:23",
+              "src": "3149:169:28",
               "text": " withdraw from the deposit.\n @param withdrawAddress the address to send withdrawn value.\n @param withdrawAmount the amount to withdraw."
             },
             "functionSelector": "205c2878",
-            "id": 3608,
+            "id": 4440,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "withdrawTo",
-            "nameLocation": "3333:10:23",
+            "nameLocation": "3333:10:28",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 3606,
+              "id": 4438,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3603,
+                  "id": 4435,
                   "mutability": "mutable",
                   "name": "withdrawAddress",
-                  "nameLocation": "3360:15:23",
+                  "nameLocation": "3360:15:28",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3608,
-                  "src": "3344:31:23",
+                  "scope": 4440,
+                  "src": "3344:31:28",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1408,10 +1408,10 @@
                     "typeString": "address payable"
                   },
                   "typeName": {
-                    "id": 3602,
+                    "id": 4434,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "3344:15:23",
+                    "src": "3344:15:28",
                     "stateMutability": "payable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address_payable",
@@ -1422,13 +1422,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 3605,
+                  "id": 4437,
                   "mutability": "mutable",
                   "name": "withdrawAmount",
-                  "nameLocation": "3385:14:23",
+                  "nameLocation": "3385:14:28",
                   "nodeType": "VariableDeclaration",
-                  "scope": 3608,
-                  "src": "3377:22:23",
+                  "scope": 4440,
+                  "src": "3377:22:28",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1436,10 +1436,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 3604,
+                    "id": 4436,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "3377:7:23",
+                    "src": "3377:7:28",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1448,27 +1448,27 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "3343:57:23"
+              "src": "3343:57:28"
             },
             "returnParameters": {
-              "id": 3607,
+              "id": 4439,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "3409:0:23"
+              "src": "3409:0:28"
             },
-            "scope": 3609,
-            "src": "3324:86:23",
+            "scope": 4441,
+            "src": "3324:86:28",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 3610,
-        "src": "287:3126:23",
+        "scope": 4442,
+        "src": "287:3126:28",
         "usedErrors": []
       }
     ],
-    "src": "42:3371:23"
+    "src": "42:3371:28"
   },
   "compiler": {
     "name": "solc",
@@ -1476,7 +1476,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.12",
-  "updatedAt": "2023-06-10T14:14:13.264Z",
+  "updatedAt": "2023-06-10T15:23:30.741Z",
   "devdoc": {
     "kind": "dev",
     "methods": {
