@@ -4,9 +4,9 @@ pragma solidity ^0.8.12;
 /* solhint-disable avoid-low-level-calls */
 /* solhint-disable no-empty-blocks */
 
-import "./interfaces/IAccount.sol";
-import "./interfaces/IEntryPoint.sol";
-import "./interfaces/Helpers.sol";
+import "../interfaces/IAccount.sol";
+import "../interfaces/IEntryPoint.sol";
+import "../interfaces/Helpers.sol";
 
 /**
  * Basic account implementation.
